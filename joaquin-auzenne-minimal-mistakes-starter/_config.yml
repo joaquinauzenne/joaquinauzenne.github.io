@@ -50,3 +50,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+# Default for project files
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      classes: wide
