@@ -1,1 +1,12 @@
+title: "Joaquin Auzenne"
+description: "Researcher | Computational Biologist | Data Scientist"
+theme: minima
+
+# Optional settings
+markdown: kramdown
+show_downloads: false
+
+# Social links (appear in the theme footer if supported)
+github_username: joaquinauzenne
+linkedin_username: auzenneworks
 
