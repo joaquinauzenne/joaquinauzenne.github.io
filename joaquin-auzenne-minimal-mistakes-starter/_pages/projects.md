@@ -1,20 +1,15 @@
 ---
 title: "Projects"
-layout: single
+layout: archive
 permalink: /projects/
 author_profile: true
+entries_layout: grid
 ---
 
-### Mammalian eDNA Pipeline
-- Preprocessing: Cutadapt, quality filtering
-- Clustering: NGSpeciesID consensus, cross-sample deduplication
-- Taxonomy: BLAST+ megablast to NCBI + custom reference library
-- Outputs: CSV/TSV summaries, interactive range maps
+{% include base_path %}
 
-### IdMiner
-- Python-based literature mining using PaperBLAST/NCBI
-- Produces keyword-filtered tables for rapid functional annotation review
+**Selected work highlighting bioinformatics, network science, and applied ML.**
 
-### Pharma Forecasting
-- ARIMA/XGBoost for inventory optimization
-- Reporting notebooks and stakeholder summaries
+{% for project in site.projects %}
+  {% include archive-single.html type="grid" %}
+{% endfor %}
