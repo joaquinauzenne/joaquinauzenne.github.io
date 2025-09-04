@@ -1,6 +1,6 @@
 title: "Joaquin Auzenne"
 description: "Researcher | Computational Biologist | Data Scientist"
-theme: minima
+theme: jekyll-theme-minima
 
 # Optional settings
 markdown: kramdown
