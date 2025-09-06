@@ -1,7 +1,7 @@
 title: "Joaquin Auzenne"
 email: "joaquinauzenne@utexas.edu"
 description: "Researcher | Computational Biologist | Data Scientist"
-url: "https://joaquinauzenne.github.io" # your GitHub Pages URL
+url: "https://joaquinauzenne.io" # your GitHub Pages URL
 baseurl: "" # leave empty for a user/organization site
 
 # Use Minimal Mistakes via GitHub's remote_theme
@@ -14,7 +14,7 @@ plugins:
 # Build settings
 markdown: kramdown
 locale: en-US
-minimal_mistakes_skin: "default" # try: dark, contrast, neon, aqua, etc.
+minimal_mistakes_skin: "contrast" # try: dark, contrast, neon, aqua, etc.
 
 # Ensure Jekyll reads README so we can single-source the homepage content
 include:
@@ -24,7 +24,7 @@ include:
 author:
   name   : "Joaquin Auzenne"
   avatar : "/assets/images/avatar.svg"
-  bio    : "Computational biologist passionate about eDNA, multi-omics, and data-driven research."
+  bio    : "Applied mathematician passionate about biological modeling, multi-omics, and data-driven research."
   links:
     - label: "Email"
       icon: "fas fa-envelope"
