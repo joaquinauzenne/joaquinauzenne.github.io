@@ -1,0 +1,10 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Load the theme skin and core styles
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+/* Place optional overrides below */
+// .page__content { font-size: 1.05rem; }
