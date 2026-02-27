@@ -1,13 +1,60 @@
+# ---------------------------------------------------------------
+# SITE SETTINGS
+# ---------------------------------------------------------------
 title: "Joaquin Auzenne"
 description: "Bioinformatics · Applied Mathematics · Open Science"
 url: "https://joaquinauzenne.github.io"
 baseurl: ""
+repository: "joaquinauzenne/joaquinauzenne.github.io"
 
-# Build Settings
+# ---------------------------------------------------------------
+# AUTHOR INFO
+# ---------------------------------------------------------------
+author:
+  name: "Joaquin Auzenne"
+  bio: "B.S. Mathematics & Computational Biology, UT Austin '25. Bioinformatics · Applied Math · Open Science."
+  location: "Austin, TX"
+  affiliation: "University of Texas at Austin"
+  pronouns: "He / Him"
+  email_work: "auzenne.work@gmail.com"
+  email_academic: "joaquinauzenne@utexas.edu"
+  phone: "+1 (512) 228-2719"
+  github: "joaquinauzenne"
+  linkedin: "joaquinauzenne"
+  open_to: "Research collaborations, interdisciplinary projects, open science initiatives"
+  references: "Dr. Anthony Di Fiore · Dr. Rebecca Young · Dr. Calvin Henard"
+
+# ---------------------------------------------------------------
+# BUILD SETTINGS
+# ---------------------------------------------------------------
 markdown: kramdown
 highlighter: rouge
-exclude: [Gemfile, Gemfile.lock, node_modules, vendor]
-
-# Ensure your layout folder is recognized
 layouts_dir: _layouts
 data_dir: _data
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .sass-cache
+  - Dockerfile
+  - docker-compose.yaml
+  - markdown_generator
+  - scripts
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - package.json
+  - package-lock.json
+
+# ---------------------------------------------------------------
+# PLUGINS (GitHub Pages compatible)
+# ---------------------------------------------------------------
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
