@@ -1,0 +1,100 @@
+# Experience section — three tabs: research, professional, education
+# Edit any entry or add new ones. They render in the order listed.
+
+research:
+  - date: "Dec 2024 – Present"
+    location: "Austin, TX"
+    title: "Bioinformatic Assistant"
+    org: "DiFiore Lab, University of Texas at Austin"
+    bullets:
+      - "Developed a mammalian metabarcoding pipeline for pre-processing and consensus sequence clustering of Nanopore MinION-sequenced environmental DNA (83 soil samples, ~6M reads) in Shell script for taxonomic assignment via BLAST+."
+      - "Integrated NCBI and IUCN databases using the GBIF Metabarcoding Data Toolkit API for comprehensive species identification and interactive species-range visualization with ArcGIS."
+      - "Established a curated DNA reference library of mammals along the Magdalena River in Colombia, focusing on rRNA genetic markers (12S, 16S)."
+      - "Delivered consensus sequences ready for longitudinal population and dispersal analyses using MinION MKICN, MultiQC, NGSpeciesID, and megaBLAST."
+
+  - date: "Jan 2022 – Sept 2023"
+    location: "Austin, TX"
+    title: "Undergraduate Researcher & Teaching Mentor"
+    org: "FRI EvoDevOmics, University of Texas at Austin"
+    bullets:
+      - "Designed high-throughput transcriptomic pipelines in R on BRCF HPC clusters to reveal the basis of embryonic diversification in <em>Dendrobatid</em> frogs via DESeq2, WGCNA, PCA, and nearest-neighbors clustering."
+      - "Co-developed <strong>IdMiner</strong>, a Python-based academic literature search tool querying PubMed and NCBI to functionally annotate 40+ differentially expressed genes at scale."
+      - "Served as Teaching Assistant for 20+ students; presented weekly lessons on MANOVA, PCA, and WGCNA under Rebecca Young, PhD."
+
+  - date: "Feb 2020 – May 2021"
+    location: "Denton, TX"
+    title: "Undergraduate Research Assistant"
+    org: "Henard Lab, University of North Texas BioDiscovery Institute"
+    bullets:
+      - "Awarded $500 competitive grant to design a shikimate biosynthesis pathway in plasmid-modified <em>E. coli</em> (Gibson assembly) as a \"green chemistry\" alternative for nylon precursor production in a methane-fed bioreactor."
+      - "Maintained <em>E. coli</em> and methanotrophic cultures; performed qRT-PCR confirmation of engineered constructs; conducted liquid chromatography analysis and detailed lab record-keeping."
+      - "Adapted primary research for <em>Frontiers for Young Minds</em>, translating advanced metabolic engineering for broader audiences."
+
+  - date: "Oct 2019 – Jun 2020"
+    location: "Denton, TX"
+    title: "Reptile Care & Research Assistant"
+    org: "Crossley Lab, University of North Texas Integrative Biology"
+    bullets:
+      - "Oversaw daily feeding, tank maintenance, and husbandry for 30+ tanks of large laboratory reptiles (<em>Alligator mississippiensis</em>, <em>Chelydra serpentina</em>); provided on-call animal restraint, transport, and surgical assistance."
+      - "Conducted cardiorespiratory physiological study of alligators and snapping turtles under normoxic and hypoxic conditions via controlled treadmill exercise and blood gas centrifugation."
+
+professional:
+  - date: "May 2023 – Aug 2023"
+    location: "Dakar, Senegal"
+    title: "Data Analysis Intern"
+    org: "Tanel Health (via Heman Sweatt Center for Black Males, UT Austin)"
+    bullets:
+      - "Implemented gradient boosting and regression (XGBoost, SARIMA) on pharmaceutical sales data on AWS, with projected waste reduction of up to 20% across 200+ in-network enterprises."
+      - "Created technical reports with metrics and visualizations (matplotlib, Plotly); integrated a two-factor QR-based authentication system for a 10,000+ customer database."
+      - "Selected for inaugural Sweatt in Senegal cohort; led cross-cultural data science collaboration adhering to strict data privacy standards."
+
+  - date: "Jan 2024 – Aug 2024"
+    location: "Austin, TX"
+    title: "Consultant Machinist"
+    org: "Paradigm Robotics"
+    bullets:
+      - "Fabricated and assembled mechanical components for fire-resistant robotic systems (FireBot), translating CAD designs into G-code and operating mill/lathe equipment."
+      - "Collaborated with engineers on design iterations and equipment modifications for rapid prototyping."
+
+  - date: "Aug 2021 – Nov 2022"
+    location: "Austin, TX"
+    title: "CNC Machinist & Programmer"
+    org: "Carr Lane Manufacturing"
+    bullets:
+      - "Trained new CNC machinists, performed GD&T quality inspections, and maintained 5S standards on HAAS/DMG Mori mills and lathes; programmed overnight production runs increasing weekly output by 24+ hours."
+      - "Led evening shift operations; documented SOPs for quality and safety compliance; performed preventive maintenance on CNC equipment."
+      - "Collaborated with engineering to troubleshoot process issues and recommend equipment modifications."
+
+education:
+  - date: "Aug 2021 – May 2025"
+    location: "Austin, TX"
+    title: "B.S. Mathematics & B.S. Computational Biology"
+    org: "University of Texas at Austin · Certificate in Scientific Computation and Data Sciences"
+    bullets:
+      - "College of Natural Sciences Polymathic Scholars Honors"
+      - "Thesis: <em>DNA Metabarcoding of Soil Samples from the Magdalena River Valley</em>"
+      - "Courses: Applied Data Analysis, Bioinformatics, Predictive Analytics, Mathematical Modeling, Systems Biology of Stem Cells, Functional Analysis, Social & Biological Networks, Scientific Computing in Numerical Analysis, Environmental Epigenetics, Microbial Genetics, Language and the Brain"
+
+  - date: "Aug 2019 – May 2021"
+    location: "Denton, TX"
+    title: "Pre-Major Studies in Biology & Chemistry"
+    org: "University of North Texas (transferred to UT Austin)"
+    bullets:
+      - "Research at Henard Lab (metabolic engineering) and Crossley Lab (reptile cardiorespiratory physiology)"
+      - "Formula SAE Composites Division — Longhorn Racing"
+
+  - date: "2022 – 2023"
+    location: "Austin, TX"
+    title: "SIAM Directed Reading Program"
+    org: "University of Texas at Austin"
+    bullets:
+      - "Advanced independent study in applied mathematics under faculty mentorship, culminating in a formal literature review presentation."
+
+  - date: "Certifications"
+    location: ""
+    title: "Professional Certifications"
+    org: "Industry Training"
+    bullets:
+      - "MSSC Certified Production Technician"
+      - "Lean Six Sigma White Belt"
+      - "OSHA-10 General Industry Safety Certification"
