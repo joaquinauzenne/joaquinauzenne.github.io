@@ -41,11 +41,14 @@ Beyond the formal framing above, I'm someone who genuinely loves hard interdisci
 *B.S. Mathematics, B.S. Computational Biology, Certificate in Scientific Computation and Data Sciences* | May 2025
 - Polymathic Scholars Honors
 - Thesis*: *DNA Metabarcoding of Soil Samples from the Magdalena River Valley*
-- Relevant Courses: Applied Data Analysis, Bioinformatics, Predictive Analytics, Mathematical Modeling
+- Relevant Advanced Coursework: Bioinformatics, Applied Data Analysis, Predictive Analytics, Mathematical Modeling in Science and Engineering, Systems Biology of Stem Cells, Functional Analysis, Social and Biological Networks, Environmental Epigenetics, Microbial Genetics, Language and the Brain, Scientific Computing in Numerical Analysis, Functional Analysis, Complex Analysis, Dynamical Systems, Mathematical Modeling in Biology
+
+**University of North Texas** — Denton, TX
+*Pre-major studies in Biology and Chemistry (transferred to UT Austin)* | Aug 2019 – May 2021
 
 ---
 
-## 🔬 Research Overview
+## 🔬 Research Interests
 
 | Area | Details |
 |------|---------|
@@ -59,14 +62,18 @@ Beyond the formal framing above, I'm someone who genuinely loves hard interdisci
 
 ## 🛠️ Skills Overview
 
-**Programming:** Python (scikit-learn, PyTorch, TensorFlow, BeautifulSoup), R (tidyverse, ggplot2, nlme), SQL, Shell/Bash Scripting, MATLAB (PINNs), HPC/SLURM
+**Programming:** Python (pandas, scikit-learn, PyTorch, TensorFlow, BeautifulSoup), R (tidyverse, ggplot2, Shiny, MCMCglmm, nlme), SQL, Shell Scripting (Bash), MATLAB (PINNs), HPC/SLURM, Java, HTML/CSS, C++
 
-**Bioinformatics:** ONT (MinION), Illumina, Sequencing Library Preparation, Cutadapt, FastQC/MultiQC, STAR/Salmon, Kallisto, NGSpeciesID, BWA-MEM2, DESeq2, WGCNA, Variant Calling
+**Bioinformatics:** Illumina (NextSeq, NovaSeq), ONT (MinION, MKICN), QC (Cutadapt, FastQC/MultiQC, NanoPlot), Alignment/Clustering (STAR/Salmon, Kallisto, NGSpeciesID, BWA-MEM2), RNA-Seq (WGCNA, DESeq2), LIMS (Benchling), Variant Calling, AlphaFold2
 
-**Wet Lab:** PCR / qPCR / ddPCR, DNA/RNA Extraction, Nanopore & Illumina Library Prep, SDS-PAGE, Gibson Assembly, Animal Care & Surgical Assistance (reptiles, *Xenopus laevis*)
+**Data Analysis:** SAS, SPSS, Tableau, Statistical Modeling (ANCOVA, MLE, PCA, XGBoost, SARIMA), Visualization (ggplot2, matplotlib, Plotly), NLP, GenAI (LLM RAG), AWS, FAIR Data Management
 
-**Data Analysis:** SAS, SPSS, PCA, ANCOVA, MLE, XGBoost, SARIMA, AWS
+**Wet Lab:** DNA/RNA Extraction, PCR/qPCR/ddPCR, SDS-PAGE, Media Preparation, Anaerobic & Microaerophilic Culture (Coy chamber), Light Microscopy, CRISPR/Cas-Mediated iPSC, Gibson Assembly, Cleanroom Operations, Gram Staining, Centrifugation, Transfection, Blood Gas Analysis
 
-**Tools:** Docker, Git, Linux, VSCode, LaTeX, ArcGIS, Benchling (LIMS), Microsoft Office
+**Animal & Field Work:** Laboratory Animal Handling (reptiles, amphibians), Behavioral Observations, Physiological Data Collection, Specimen Transport, Animal Restraint, Environmental DNA Sampling
+
+**Manufacturing & Engineering:** MSSC Certified Production Technician, Lean Six Sigma White Belt, OSHA-10, AutoCAD, SolidWorks, 3D Printing, GD&T, G-Code, CNC Programming (HAAS/DMG Mori), Carbon Fiber/Fiberglass Fabrication
+
+**Tools & Platforms:** Docker (Bioconductor), Linux, Git/GitHub, VSCode, LaTeX, MS Office, Adobe Acrobat, ArcGIS
 
 **Languages:** English (Native), French (Fluent), Spanish (Conversational), Japanese (Novice)
