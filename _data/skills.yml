@@ -1,0 +1,95 @@
+# Skills section — each card has a title and a list of tags
+# Add, remove, or reorder freely.
+
+- title: "Programming"
+  tags:
+    - Python
+    - pandas
+    - scikit-learn
+    - PyTorch
+    - TensorFlow
+    - R
+    - Shiny
+    - MCMCglmm
+    - SQL
+    - Bash / Shell
+    - MATLAB (PINNs)
+    - Java
+    - HTML / CSS
+    - C++
+    - SLURM / HPC
+
+- title: "Bioinformatics"
+  tags:
+    - Illumina (NextSeq, NovaSeq)
+    - ONT MinION / MKICN
+    - Cutadapt
+    - FastQC / MultiQC
+    - NanoPlot
+    - STAR / Salmon
+    - Kallisto
+    - NGSpeciesID
+    - BWA-MEM2
+    - DESeq2
+    - WGCNA
+    - AlphaFold2
+    - Variant Calling
+    - Benchling (LIMS)
+
+- title: "Data Analysis"
+  tags:
+    - SAS
+    - SPSS
+    - Tableau
+    - PCA
+    - ANCOVA
+    - MLE
+    - XGBoost
+    - SARIMA
+    - NLP
+    - GenAI / LLM RAG
+    - matplotlib
+    - Plotly
+    - AWS
+    - FAIR Data Management
+
+- title: "Wet Lab"
+  tags:
+    - PCR / qPCR / ddPCR
+    - DNA / RNA Extraction
+    - SDS-PAGE
+    - Gibson Assembly
+    - CRISPR / Cas iPSC
+    - Anaerobic Culture (Coy)
+    - Light Microscopy
+    - Gram Staining
+    - Transfection
+    - Blood Gas Analysis
+    - Cleanroom Operations
+
+- title: "Manufacturing & Engineering"
+  tags:
+    - CNC (HAAS / DMG Mori)
+    - G-Code
+    - GD&T
+    - AutoCAD
+    - SolidWorks
+    - 3D Printing
+    - Carbon Fiber Fabrication
+    - Lean Six Sigma
+    - OSHA-10
+
+- title: "Tools & Platforms"
+  tags:
+    - Docker (Bioconductor)
+    - Git / GitHub
+    - Linux
+    - VSCode
+    - LaTeX
+    - ArcGIS
+    - Adobe Acrobat
+    - MS Office
+    - English (Native)
+    - French (Fluent)
+    - Spanish (Conversational)
+    - Japanese (Novice)
