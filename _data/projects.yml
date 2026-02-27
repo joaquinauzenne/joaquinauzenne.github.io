@@ -1,0 +1,4 @@
+- title: "Mammalian eDNA Metabarcoding Pipeline"
+  org: "DiFiore Lab · UT Austin"
+  desc: "Senior thesis: end-to-end Bash pipeline processing ~6M Nanopore reads..."
+  tags: ["eDNA", "ONT MinION", "Bash"]
