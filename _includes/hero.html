@@ -1,0 +1,28 @@
+<section id="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow fade-up fade-up-1">{{ site.data.hero.eyebrow }}</div>
+    <h1 class="fade-up fade-up-2">Joaquin <em>Auzenne</em></h1>
+    <p class="hero-tagline fade-up fade-up-3">{{ site.data.hero.tagline }}</p>
+    <div class="hero-ctas fade-up fade-up-4">
+      <a href="#experience" class="btn-primary">View My Work</a>
+      <a href="#contact" class="btn-secondary">Get In Touch</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-deco"></div>
+    <div class="hero-right-deco2"></div>
+    <div class="hero-stats">
+      {% for stat in site.data.hero.stats %}
+      <div class="stat">
+        <div class="stat-num">{{ stat.num }}</div>
+        <div class="stat-label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="hero-interests">
+      {% for interest in site.data.hero.interests %}
+      <span class="tag">{{ interest }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</section>
