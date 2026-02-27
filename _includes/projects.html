@@ -1,0 +1,21 @@
+<section id="projects">
+  <div class="section-header">
+    <span class="section-num">04 /</span>
+    <h2>Selected <em>Projects</em></h2>
+  </div>
+  <div class="projects-grid">
+    {% for project in site.data.projects %}
+    <div class="project-card">
+      <span class="project-num">Project {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+      <div class="project-title">{{ project.title }}</div>
+      <div class="project-org">{{ project.org }}</div>
+      <p class="project-desc">{{ project.desc }}</p>
+      <div class="project-tags">
+        {% for tag in project.tags %}
+        <span class="project-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
