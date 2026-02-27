@@ -1,0 +1,34 @@
+<section id="about">
+  <div class="section-header">
+    <span class="section-num">01 /</span>
+    <h2>About <em>Me</em></h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text">
+      {{ content }}
+    </div>
+    <div class="about-sidebar">
+      {% for card in site.data.about_sidebar %}
+      <div class="about-card">
+        <div class="about-card-title">{{ card.title }}</div>
+        {% if card.type == "languages" %}
+        <div>
+          {% for lang in card.items %}
+          <div class="lang-item">
+            <span>{{ lang.name }}</span>
+            <span class="lang-level">{{ lang.level }}</span>
+          </div>
+          {% endfor %}
+        </div>
+        {% else %}
+        <ul class="about-card-list">
+          {% for item in card.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,37 @@
+<section id="experience">
+  <div class="section-header">
+    <span class="section-num">02 /</span>
+    <h2>Experience &amp; <em>Education</em></h2>
+  </div>
+
+  <div class="exp-tabs">
+    <button class="exp-tab active" onclick="switchTab('research', this)">Research</button>
+    <button class="exp-tab" onclick="switchTab('professional', this)">Professional</button>
+    <button class="exp-tab" onclick="switchTab('education', this)">Education</button>
+  </div>
+
+  {% assign tabs = "research,professional,education" | split: "," %}
+  {% for tab in tabs %}
+  <div class="exp-panel{% if tab == 'research' %} active{% endif %}" id="panel-{{ tab }}">
+    <div class="timeline">
+      {% for item in site.data.experience[tab] %}
+      <div class="timeline-item">
+        <div class="timeline-meta">
+          <span class="timeline-date">{{ item.date }}</span>
+          {% if item.location and item.location != "" %}
+          <span class="timeline-place">{{ item.location }}</span>
+          {% endif %}
+        </div>
+        <div class="timeline-title">{{ item.title }}</div>
+        <div class="timeline-org">{{ item.org }}</div>
+        <ul class="timeline-bullets">
+          {% for bullet in item.bullets %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>

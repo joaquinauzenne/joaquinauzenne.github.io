@@ -1,0 +1,18 @@
+<section id="skills">
+  <div class="section-header">
+    <span class="section-num">03 /</span>
+    <h2>Skills &amp; <em>Toolkit</em></h2>
+  </div>
+  <div class="skills-grid">
+    {% for card in site.data.skills %}
+    <div class="skill-card">
+      <div class="skill-card-title">{{ card.title }}</div>
+      <div class="skill-tags">
+        {% for tag in card.tags %}
+        <span class="skill-tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

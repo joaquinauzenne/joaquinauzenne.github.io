@@ -1,0 +1,67 @@
+<section id="contact">
+  <div class="section-header">
+    <span class="section-num">05 /</span>
+    <h2>Get in <em>Touch</em></h2>
+  </div>
+  <div class="contact-grid">
+    <div>
+      <p class="contact-text">
+        I'm always open to collaborating on exciting research projects, discussing bioinformatics, applied mathematics, philosophy, or anything else! Feel free to reach out through any of the channels below.
+      </p>
+      <div class="contact-links">
+        {% if site.author.email_work %}
+        <a href="mailto:{{ site.author.email_work }}" class="contact-link">
+          <span class="contact-link-type">Work</span>
+          {{ site.author.email_work }}
+        </a>
+        {% endif %}
+        {% if site.author.email_academic %}
+        <a href="mailto:{{ site.author.email_academic }}" class="contact-link">
+          <span class="contact-link-type">Academic</span>
+          {{ site.author.email_academic }}
+        </a>
+        {% endif %}
+        {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="contact-link">
+          <span class="contact-link-type">LinkedIn</span>
+          linkedin.com/in/{{ site.author.linkedin }}
+        </a>
+        {% endif %}
+        {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" class="contact-link">
+          <span class="contact-link-type">GitHub</span>
+          github.com/{{ site.author.github }}
+        </a>
+        {% endif %}
+        {% if site.author.phone %}
+        <a href="tel:{{ site.author.phone | remove: ' ' | remove: '(' | remove: ')' | remove: '-' }}" class="contact-link">
+          <span class="contact-link-type">Phone</span>
+          {{ site.author.phone }}
+        </a>
+        {% endif %}
+      </div>
+    </div>
+    <div class="contact-right">
+      <div class="contact-fact">
+        <div class="contact-fact-label">Location</div>
+        <div class="contact-fact-value">{{ site.author.location }}</div>
+      </div>
+      <div class="contact-fact">
+        <div class="contact-fact-label">Affiliation</div>
+        <div class="contact-fact-value">{{ site.author.affiliation }}</div>
+      </div>
+      <div class="contact-fact">
+        <div class="contact-fact-label">Pronouns</div>
+        <div class="contact-fact-value">{{ site.author.pronouns }}</div>
+      </div>
+      <div class="contact-fact">
+        <div class="contact-fact-label">Open To</div>
+        <div class="contact-fact-value">{{ site.author.open_to }}</div>
+      </div>
+      <div class="contact-fact">
+        <div class="contact-fact-label">References</div>
+        <div class="contact-fact-value">{{ site.author.references }}</div>
+      </div>
+    </div>
+  </div>
+</section>
