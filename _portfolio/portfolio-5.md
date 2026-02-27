@@ -33,4 +33,4 @@ After running differential gene expression analyses (DESeq2, WGCNA), researchers
 
 ---
 
-*IdMiner was built as a research tool at UT Austin's FRI EvoDevOmics lab. Contact me if you're interested in the codebase or methodology.*
+*IdMiner was built as a research tool by Dr. Santiago Radio of the Departamento de Genomica, Instituto de Investigaciones Biológicas Clemente Estable in collaboration with UT Austin's FRI EvoDevOmics lab. Contact me if you're interested in the codebase or methodology.*
