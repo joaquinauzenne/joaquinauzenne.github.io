@@ -1,0 +1,37 @@
+# About section sidebar cards — edit freely
+
+- title: "Currently Learning"
+  type: list
+  items:
+    - "Continuum Mechanics"
+    - "Functional Analysis for Applied Math"
+    - "Biological Sequence Analysis Pipelines"
+
+- title: "Research Interests"
+  type: list
+  items:
+    - "eDNA Metabarcoding & Conservation"
+    - "Primate Neurolinguistics"
+    - "Transcriptomics & 'Omics Data"
+    - "Mathematical Modeling in Biology"
+    - "GenAI & LLM Applications"
+
+- title: "Languages"
+  type: languages
+  items:
+    - name: "English"
+      level: "Native"
+    - name: "French"
+      level: "Fluent"
+    - name: "Spanish"
+      level: "Conversational"
+    - name: "Japanese"
+      level: "Novice"
+
+- title: "Education"
+  type: list
+  items:
+    - "B.S. Mathematics · UT Austin '25"
+    - "B.S. Computational Biology · UT Austin '25"
+    - "Cert. Scientific Computation & Data Sciences"
+    - "Polymathic Scholars Honors"
