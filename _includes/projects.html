@@ -4,7 +4,8 @@
     <h2>Selected <em>Projects</em></h2>
   </div>
   <div class="projects-grid">
-    {% for project in site.data.projects %}
+    {% for project in site.projects %}
+    <a href="{{ project.url | relative_url }}" class="project-card-link">
     <div class="project-card">
       <span class="project-num">Project {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
       <div class="project-title">{{ project.title }}</div>
@@ -16,6 +17,7 @@
         {% endfor %}
       </div>
     </div>
+    </a>
     {% endfor %}
   </div>
 </section>

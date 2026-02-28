@@ -35,6 +35,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
 exclude:
   - Gemfile
   - Gemfile.lock

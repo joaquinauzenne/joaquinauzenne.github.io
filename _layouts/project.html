@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} · {{ site.author.name }}</title>
+  <meta name="description" content="{{ page.desc | strip_html | truncate: 160 }}"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"/>
+</head>
+<body>
+
+  <nav>
+    <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.author.name }}</a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}#about">About</a></li>
+      <li><a href="{{ '/' | relative_url }}#experience">Experience</a></li>
+      <li><a href="{{ '/' | relative_url }}#skills">Skills</a></li>
+      <li><a href="{{ '/' | relative_url }}#projects">Projects</a></li>
+      <li><a href="{{ '/' | relative_url }}#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="project-detail-header">
+    <a href="{{ '/' | relative_url }}#projects" class="project-detail-back">← Back to Projects</a>
+    <div class="project-detail-title">{{ page.title }}</div>
+    <div class="project-detail-org">{{ page.org }}</div>
+    <div class="project-detail-tags">
+      {% for tag in page.tags %}
+      <span class="project-tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="project-detail-body">
+    {{ content }}
+  </div>
+
+  <footer>
+    <span class="footer-copy">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} · joaquinauzenne.github.io</span>
+    <div class="footer-links">
+      <a href="{{ '/' | relative_url }}#about">About</a>
+      <a href="{{ '/' | relative_url }}#experience">Experience</a>
+      <a href="{{ '/' | relative_url }}#skills">Skills</a>
+      <a href="{{ '/' | relative_url }}#projects">Projects</a>
+      <a href="{{ '/' | relative_url }}#contact">Contact</a>
+    </div>
+  </footer>
+
+</body>
+</html>
