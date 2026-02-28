@@ -1,24 +1,24 @@
 # Hero section data — edit these to update the hero panel
-eyebrow: "Bioinformatics · Applied Math · Open Science"
+eyebrow: "Bioinformatics · Mathematics · Open Science"
 tagline: "Interdisciplinary scientist from UT Austin bridging quantitative theory and experimental execution — at the intersection of mathematics, computation, and biology."
 
 stats:
-  - num: "2×"
-    label: "B.S. Degrees"
+  - num: "B.S."
+    label: "Mathematics, Computational Biology"
   - num: "5+"
     label: "Years Research"
-  - num: "6M+"
-    label: "Reads Processed"
+  - num: "4"
+    label: "Research Roles"
   - num: "4"
     label: "Languages"
 
 interests:
+  - Metabolic Engineering
   - Metabarcoding
-  - RNA-Seq
+  - Transcriptomics
   - Neurolinguistics
-  - Continuum Mechanics
   - Conservation Biology
   - Predictive Modeling
-  - GenAI / LLM RAG
-  - FAIR Data
-  - Open Science
+  - Statistical Learning
+  - Dynamical Systems
+  
