@@ -188,15 +188,15 @@ h1 {
 }
 
 .hero-profile {
-  display: block;
-  width: 160px;
-  height: 160px;
+  position: absolute;
+  top: calc(4rem + 45px);
+  right: calc(3rem + 45px);
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center top;
   border: 2px solid $sand;
-  margin: 0 auto 2rem;
-  position: relative;
   z-index: 1;
 }
 
@@ -378,6 +378,20 @@ h2 {
   margin-bottom: -1px;
   &.active { opacity: 1; border-bottom-color: $moss; color: $moss; }
   &:hover { opacity: 0.8; }
+}
+
+.exp-cv-link {
+  margin-left: auto;
+  align-self: center;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $moss;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  &:hover { opacity: 1; }
 }
 
 .exp-panel { display: none; }

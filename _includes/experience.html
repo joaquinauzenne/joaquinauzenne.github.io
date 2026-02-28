@@ -8,6 +8,7 @@
     <button class="exp-tab active" onclick="switchTab('research', this)">Research</button>
     <button class="exp-tab" onclick="switchTab('professional', this)">Professional</button>
     <button class="exp-tab" onclick="switchTab('education', this)">Education</button>
+    <a href="{{ '/files/Auzenne_CV.pdf' | relative_url }}" download class="exp-cv-link">Download CV</a>
   </div>
 
   {% assign tabs = "research,professional,education" | split: "," %}
