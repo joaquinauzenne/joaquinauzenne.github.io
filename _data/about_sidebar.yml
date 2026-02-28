@@ -3,9 +3,9 @@
 - title: "Currently Learning"
   type: list
   items:
-    - "Continuum Mechanics"
-    - "Functional Analysis for Applied Math"
-    - "Biological Sequence Analysis Pipelines"
+    - "Dialectical Biologist by Richard Levins, Richard Lewontin"
+    - "Functional Analysis for Applied Math by Todd Arbogast"
+    - "Topics in Algebra by I.N. Herstein"
 
 - title: "Research Interests"
   type: list
@@ -13,8 +13,7 @@
     - "eDNA Metabarcoding & Conservation"
     - "Primate Neurolinguistics"
     - "Transcriptomics & 'Omics Data"
-    - "Mathematical Modeling in Biology"
-    - "GenAI & LLM Applications"
+    - "GenAI & LLM Applications with RAG"
 
 - title: "Languages"
   type: languages
