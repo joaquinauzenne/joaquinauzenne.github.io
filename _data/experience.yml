@@ -8,62 +8,65 @@ research:
     org: "DiFiore Lab, University of Texas at Austin"
     bullets:
       - "Developed a mammalian metabarcoding pipeline for pre-processing and consensus sequence clustering of Nanopore MinION-sequenced environmental DNA (83 soil samples, ~6M reads) in Shell script for taxonomic assignment via BLAST+."
-      - "Integrated NCBI and IUCN databases using the GBIF Metabarcoding Data Toolkit API for comprehensive species identification and interactive species-range visualization with ArcGIS."
-      - "Established a curated DNA reference library of mammals along the Magdalena River in Colombia, focusing on rRNA genetic markers (12S, 16S)."
-      - "Delivered consensus sequences ready for longitudinal population and dispersal analyses using MinION MKICN, MultiQC, NGSpeciesID, and megaBLAST."
+      - "Integrated multiple public domain databases (NCBI, IUCN) using the GBIF Metabarcoding Data Toolkit API for comprehensive species identification and interactive species-range visualization (ArcGIS)."
+      - "Established a curated DNA reference library of mammals identified along the Magdalena River in Colombia, focusing on rRNA genetic markers (12S, 16S)."
+      - "Delivered consensus sequences ready for longitudinal population and dispersal analyses using MinION MKICN Nanopore sequencing, MultiQC, NGSpeciesID read clustering, and megaBLAST taxonomic assignment."
 
   - date: "Jan 2022 – Sept 2023"
     location: "Austin, TX"
     title: "Undergraduate Researcher & Teaching Mentor"
     org: "FRI EvoDevOmics, University of Texas at Austin"
     bullets:
-      - "Designed high-throughput transcriptomic pipelines in R on BRCF HPC clusters to reveal the basis of embryonic diversification in <em>Dendrobatid</em> frogs via DESeq2, WGCNA, PCA, and nearest-neighbors clustering."
-      - "Co-developed <strong>IdMiner</strong>, a Python-based academic literature search tool querying PubMed and NCBI to functionally annotate 40+ differentially expressed genes at scale."
-      - "Served as Teaching Assistant for 20+ students; presented weekly lessons on MANOVA, PCA, and WGCNA under Rebecca Young, PhD."
+      - "Designed high-throughput transcriptomic pipelines (preprocessing, quality control, alignment) in R on BRCF HPC clusters to reveal the basis of embryonic diversification in <em>Dendrobatid</em> frogs via differential gene expression analyses (DESeq2, WGCNA, PCA, nearest-neighbors clustering)."
+      - "Employed Python tool IdMiner for automated literature searches through the PaperBLAST database (PubMed, NCBI) to functionally annotate 40+ differentially expressed genes."
+      - "Served as Teaching Assistant for a computational biology course of 20+ students, covering next-generation sequencing, omics data analysis, FAIR digital resource stewardship, and career readiness under Rebecca Young, PhD."
+      - "Presented weekly lessons on statistical methods (MANOVA, PCA, WGCNA) to student cohorts, translating complex bioinformatic concepts for undergraduate audiences."
 
   - date: "Feb 2020 – May 2021"
     location: "Denton, TX"
     title: "Undergraduate Research Assistant"
     org: "Henard Lab, University of North Texas BioDiscovery Institute"
     bullets:
-      - "Awarded $500 competitive grant to design a shikimate biosynthesis pathway in plasmid-modified <em>E. coli</em> (Gibson assembly) as a \"green chemistry\" alternative for nylon precursor production in a methane-fed bioreactor."
-      - "Maintained <em>E. coli</em> and methanotrophic cultures; performed qRT-PCR confirmation of engineered constructs; conducted liquid chromatography analysis and detailed lab record-keeping."
-      - "Adapted primary research for <em>Frontiers for Young Minds</em>, translating advanced metabolic engineering for broader audiences."
+      - "Awarded $500 competitive grant to design a shikimate biosynthesis pathway in plasmid-modified <em>E. coli</em> (Gibson assembly) as a \"green chemistry\" alternative for nylon precursor production in a scalable methane-fed bioreactor."
+      - "Maintained <em>E. coli</em> and methanotrophic cultures; evaluated methane production within continuous-stirred tank reactors; performed qRT-PCR confirmation of engineered shikimate-pathway constructs."
+      - "Conducted daily hood upkeep, sterility checks, liquid chromatography analysis, and detailed laboratory record-keeping."
+      - "Adapted <em>\"Muconic acid production from methane using rationally-engineered methanotrophic biocatalysts\"</em> (Henard et al.) for <em>Frontiers for Young Minds</em>, translating advanced metabolic engineering concepts for a younger audience."
 
   - date: "Oct 2019 – Jun 2020"
     location: "Denton, TX"
     title: "Reptile Care & Research Assistant"
     org: "Crossley Lab, University of North Texas Integrative Biology"
     bullets:
-      - "Oversaw daily feeding, tank maintenance, and husbandry for 30+ tanks of large laboratory reptiles (<em>Alligator mississippiensis</em>, <em>Chelydra serpentina</em>); provided on-call animal restraint, transport, and surgical assistance."
-      - "Conducted cardiorespiratory physiological study of alligators and snapping turtles under normoxic and hypoxic conditions via controlled treadmill exercise and blood gas centrifugation."
+      - "Oversaw daily feeding, tank maintenance, and husbandry for 30+ tanks of large laboratory reptiles (<em>Alligator mississippiensis</em>, <em>Chelydra serpentina</em>); provided on-call emergency support including animal restraint, transport, and surgical assistance."
+      - "Conducted cardiorespiratory physiological study of alligators and snapping turtles birthed under normoxic and hypoxic conditions via controlled treadmill exercise and blood gas centrifugation."
 
 professional:
-  - date: "May 2023 – Aug 2023"
-    location: "Dakar, Senegal"
-    title: "Data Analysis Intern"
-    org: "Tanel Health (via Heman Sweatt Center for Black Males, UT Austin)"
-    bullets:
-      - "Implemented gradient boosting and regression (XGBoost, SARIMA) on pharmaceutical sales data on AWS, with projected waste reduction of up to 20% across 200+ in-network enterprises."
-      - "Created technical reports with metrics and visualizations (matplotlib, Plotly); integrated a two-factor QR-based authentication system for a 10,000+ customer database."
-      - "Selected for inaugural Sweatt in Senegal cohort; led cross-cultural data science collaboration adhering to strict data privacy standards."
-
   - date: "Jan 2024 – Aug 2024"
     location: "Austin, TX"
     title: "Consultant Machinist"
     org: "Paradigm Robotics"
     bullets:
-      - "Fabricated and assembled mechanical components for fire-resistant robotic systems (FireBot), translating CAD designs into G-code and operating mill/lathe equipment."
-      - "Collaborated with engineers on design iterations and equipment modifications for rapid prototyping."
+      - "Fabricated and assembled mechanical components for fire-resistant robotic systems (FireBot), translating CAD designs into G-code and operating mill/lathe equipment; collaborated with engineers on design iterations and equipment modifications."
+
+  - date: "May 2023 – Aug 2023"
+    location: "Dakar, Senegal"
+    title: "Data Analysis Intern"
+    org: "Tanel Health (Heman Sweatt Center for Black Males, UT Austin)"
+    bullets:
+      - "Implemented gradient boosting and regression (XGBoost, SARIMA) on pharmaceutical sales data to improve back-end inventory forecasting on AWS, with projected waste reduction of up to 20% across 200+ in-network enterprises."
+      - "Created technical reports justifying predictive model selections to shareholders, including associated performance metrics and visualizations (Python: matplotlib, Plotly)."
+      - "Digitized prescriptions and integrated a two-factor QR-based prescription authentication system into a 10,000+ customer database, improving compliance and fraud prevention."
+      - "Collaborated with an interdisciplinary team of healthcare providers and software developers in a cross-cultural environment, adhering to strict data privacy standards."
 
   - date: "Aug 2021 – Nov 2022"
     location: "Austin, TX"
     title: "CNC Machinist & Programmer"
     org: "Carr Lane Manufacturing"
     bullets:
-      - "Trained new CNC machinists, performed GD&T quality inspections, and maintained 5S standards on HAAS/DMG Mori mills and lathes; programmed overnight production runs increasing weekly output by 24+ hours."
-      - "Led evening shift operations; documented SOPs for quality and safety compliance; performed preventive maintenance on CNC equipment."
-      - "Collaborated with engineering to troubleshoot process issues and recommend equipment modifications."
+      - "Trained new CNC machinists, performed GD&T quality inspections, and maintained 5S standards while machining on HAAS/DMG Mori mills and lathes; programmed overnight production runs increasing weekly machining output by 24+ hours."
+      - "Led evening shift operations, maintaining detailed maintenance logs for tool performance, inventory tracking, and equipment status; documented procedures in SOPs for consistent quality and safety compliance."
+      - "Performed preventive maintenance on CNC equipment including coolant system monitoring, chip evacuation checks, and tool audits to ensure optimal machine performance and prevent unplanned downtime."
+      - "Collaborated with the engineering team to troubleshoot process issues and recommend equipment modifications, communicating technical problems and proposed solutions to improve production efficiency."
 
 education:
   - date: "Aug 2021 – May 2025"
@@ -73,7 +76,7 @@ education:
     bullets:
       - "College of Natural Sciences Polymathic Scholars Honors"
       - "Thesis: <em>DNA Metabarcoding of Soil Samples from the Magdalena River Valley</em>"
-      - "Courses: Applied Data Analysis, Bioinformatics, Predictive Analytics, Mathematical Modeling, Systems Biology of Stem Cells, Functional Analysis, Social & Biological Networks, Scientific Computing in Numerical Analysis, Environmental Epigenetics, Microbial Genetics, Language and the Brain"
+      - "Courses: Applied Data Analysis, Bioinformatics, Predictive Analytics, Mathematical Modeling, Systems Biology of Stem Cells, Functional Analysis, Social and Biological Networks, Scientific Computing in Numerical Analysis, Environmental Epigenetics, Microbial Genetics, Language and the Brain"
 
   - date: "Aug 2019 – May 2021"
     location: "Denton, TX"
@@ -88,7 +91,7 @@ education:
     title: "SIAM Directed Reading Program"
     org: "University of Texas at Austin"
     bullets:
-      - "Advanced independent study in applied mathematics under faculty mentorship, culminating in a formal literature review presentation."
+      - "Engaged in advanced independent study in applied mathematics under faculty mentorship, culminating in a formal literature review presentation."
 
   - date: "Certifications"
     location: ""

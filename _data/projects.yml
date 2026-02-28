@@ -1,32 +1,27 @@
 # Projects section — edit, add, or reorder.
 # Number labels (Project 01, etc.) are auto-generated.
 
-- title: "Mammalian eDNA Metabarcoding Pipeline & Visualization Platform"
-  org: "DiFiore Lab · UT Austin · Dec 2024–Present"
-  desc: "Senior thesis: end-to-end Bash pipeline processing ~6M Nanopore reads from 83 soil samples (Magdalena River Valley, Colombia), achieving >99% consensus accuracy through ONT error correction. Paired with an interactive ArcGIS web platform presenting species-range data for both scientific and public audiences."
-  tags: [eDNA, ONT MinION, Bash, megaBLAST, ArcGIS, Conservation]
-
 - title: "COVID-19 Spatiotemporal Network Dynamics"
   org: "Dept. of Integrative Biology · UT Austin · Oct–Dec 2024"
   desc: "Built spatial network time-series models of U.S. COVID-19 spread (32M cases, Apr 2020–Apr 2021) with R/Shiny interactive maps, dashboards, and weighted network centrality statistics to identify transmission hubs and inform public health intervention strategies."
   tags: [R / Shiny, Network Analysis, Time Series, Epidemiology]
 
+- title: "Mammalian Metabarcoding & Species-Range Visualization Platform"
+  org: "DiFiore Lab · UT Austin · Dec 2024–Present"
+  desc: "Developed an interactive web application presenting Nanopore eDNA genomic analyses as user-friendly interfaces for both scientific and public audiences, integrating sequencing results with geospatial species-range data for the Magdalena River Valley."
+  tags: [eDNA, ONT MinION, Bash, megaBLAST, ArcGIS, Conservation]
+
 - title: "IdMiner — Bioinformatic Literature Search Tool"
   org: "FRI EvoDevOmics · UT Austin · 2022"
-  desc: "Co-developed a Python tool using BeautifulSoup to automate academic literature searches across 1M+ papers in PaperBLAST (PubMed, NCBI), enabling scalable functional annotation of differentially expressed gene lists. Applied to validate 40+ DEGs from <em>Dendrobatid</em> frog transcriptomics."
-  tags: [Python, BeautifulSoup, PubMed / NCBI, Transcriptomics]
-
-- title: "Dendrobatid Frog Embryonic Transcriptomics"
-  org: "FRI EvoDevOmics · UT Austin · 2022–2023"
-  desc: "Designed high-throughput RNA-Seq pipelines on BRCF HPC clusters to reveal the transcriptomic basis of embryonic diversification in <em>Dendrobatid</em> frogs via DESeq2, WGCNA, PCA, and nearest-neighbors clustering. Validated 40+ DEG annotations via automated IdMiner literature mining."
-  tags: [RNA-Seq, DESeq2, WGCNA, R, SLURM / HPC]
-
-- title: "Methanotroph Metabolic Engineering"
-  org: "Henard Lab · UNT BioDiscovery Institute · 2020–2021"
-  desc: "Awarded $500 competitive grant to design a shikimate biosynthesis pathway for plasmid-modified <em>E. coli</em> (Gibson assembly) as a green-chemistry nylon precursor in a methane-fed bioreactor. Performed qRT-PCR confirmation and adapted findings for <em>Frontiers for Young Minds</em>."
-  tags: [Metabolic Engineering, Gibson Assembly, qRT-PCR, Science Communication]
+  desc: "Co-developed a Python-based academic literature search application querying PubMed and NCBI repositories for gene-associated publications to aid researchers in functional annotation of gene lists at scale."
+  tags: [Python, PubMed / NCBI, Functional Annotation, Transcriptomics]
 
 - title: "Longhorn Racing — Composites Division"
   org: "LHR Combustion Team · UT Austin · Sep 2021–May 2022"
-  desc: "Fabricated carbon fiber and fiberglass structural components for a Formula SAE race car. Designed a lightweight carbon fiber steering wheel optimized for weight reduction and heat dissipation under strict quality and safety standards."
+  desc: "Fabricated carbon fiber and fiberglass structural components for Formula SAE race cars, developing precision handling techniques under strict quality and safety standards. Designed a lightweight carbon fiber steering wheel and other structural components optimized for weight reduction and heat dissipation."
   tags: [Carbon Fiber, Composites, SolidWorks, Formula SAE]
+
+- title: "Methanotroph Metabolic Engineering"
+  org: "Henard Lab · UNT BioDiscovery Institute · 2020–2021"
+  desc: "Awarded $500 to design a shikimate biosynthesis pathway for plasmid-modified <em>E. coli</em> (Gibson assembly) as a green-chemistry alternative for nylon production in a scalable methane-fed bioreactor. Adapted <em>\"Muconic acid production from methane using rationally-engineered methanotrophic biocatalysts\"</em> (Henard et al.) for <em>Frontiers for Young Minds</em>."
+  tags: [Metabolic Engineering, Gibson Assembly, qRT-PCR, Science Communication]

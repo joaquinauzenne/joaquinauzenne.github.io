@@ -6,11 +6,13 @@
     <div class="hero-ctas fade-up fade-up-4">
       <a href="#experience" class="btn-primary">View My Work</a>
       <a href="#contact" class="btn-secondary">Get In Touch</a>
+      <a href="{{ '/files/Auzenne_CV.pdf' | relative_url }}" download class="btn-secondary">Download CV</a>
     </div>
   </div>
   <div class="hero-right">
     <div class="hero-right-deco"></div>
     <div class="hero-right-deco2"></div>
+    <img src="{{ '/images/profile.png' | relative_url }}" alt="Joaquin Auzenne" class="hero-profile"/>
     <div class="hero-stats">
       {% for stat in site.data.hero.stats %}
       <div class="stat">

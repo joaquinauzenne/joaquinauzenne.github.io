@@ -9,8 +9,11 @@
     - PyTorch
     - TensorFlow
     - R
+    - tidyverse
+    - ggplot2
     - Shiny
     - MCMCglmm
+    - nlme
     - SQL
     - Bash / Shell
     - MATLAB (PINNs)
@@ -48,6 +51,7 @@
     - SARIMA
     - NLP
     - GenAI / LLM RAG
+    - ggplot2
     - matplotlib
     - Plotly
     - AWS
@@ -58,14 +62,26 @@
     - PCR / qPCR / ddPCR
     - DNA / RNA Extraction
     - SDS-PAGE
+    - Media Preparation
     - Gibson Assembly
     - CRISPR / Cas iPSC
     - Anaerobic Culture (Coy)
     - Light Microscopy
     - Gram Staining
+    - Plate Preparation
     - Transfection
+    - Centrifugation
     - Blood Gas Analysis
     - Cleanroom Operations
+
+- title: "Animal & Field Work"
+  tags:
+    - Laboratory Animal Handling
+    - Behavioral Observations
+    - Physiological Data Collection
+    - Specimen Transport
+    - Animal Restraint
+    - Environmental DNA Sampling
 
 - title: "Manufacturing & Engineering"
   tags:
@@ -88,7 +104,7 @@
     - LaTeX
     - ArcGIS
     - Adobe Acrobat
-    - MS Office
+    - MS Office (Excel, Word, PowerPoint)
     - English (Native)
     - French (Fluent)
     - Spanish (Conversational)
