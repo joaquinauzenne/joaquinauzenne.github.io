@@ -187,6 +187,19 @@ h1 {
   opacity: 0.25;
 }
 
+.hero-profile {
+  display: block;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  border: 2px solid $sand;
+  margin: 0 auto 2rem;
+  position: relative;
+  z-index: 1;
+}
+
 .hero-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
