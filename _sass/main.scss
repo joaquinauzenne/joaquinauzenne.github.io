@@ -163,18 +163,19 @@ h1 {
   background: $fog;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  align-items: flex-end;
   padding: 4rem 3rem 3rem;
   position: relative;
   overflow: hidden;
 }
 
 .hero-photo-wrap {
-  position: absolute;
-  top: 4rem;
-  right: 3rem;
-  width: clamp(140px, 22vw, 220px);
-  height: clamp(140px, 22vw, 220px);
+  position: relative;
+  align-self: flex-end;
+  flex-shrink: 0;
+  margin-bottom: auto;
+  width: min(220px, 55%);
+  aspect-ratio: 1;
 }
 
 .hero-right-deco {
@@ -204,6 +205,8 @@ h1 {
   border: 2px solid $sand;
   z-index: 1;
 }
+
+.hero-stats { width: 100%; }
 
 .hero-stats {
   display: grid;
@@ -858,16 +861,8 @@ footer {
   .nav-links { gap: 1.25rem; }
   #hero { grid-template-columns: 1fr; }
   .hero-left { padding: 5rem 2rem 2rem; }
-  .hero-right { padding: 2rem; min-height: 280px; }
-  .hero-photo-wrap {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    right: auto;
-    transform: translate(-50%, -50%);
-    width: clamp(100px, 38vw, 160px);
-    height: clamp(100px, 38vw, 160px);
-  }
+  .hero-right { padding: 2rem; min-height: 360px; align-items: center; }
+  .hero-photo-wrap { width: min(140px, 40vw); }
   section { padding: 4rem 2rem; }
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
   .skills-grid { grid-template-columns: 1fr 1fr; }
