@@ -9,9 +9,11 @@
     </div>
   </div>
   <div class="hero-right">
-    <div class="hero-right-deco"></div>
-    <div class="hero-right-deco2"></div>
-    <img src="{{ '/images/profile.png' | relative_url }}" alt="Joaquin Auzenne" class="hero-profile"/>
+    <div class="hero-photo-wrap">
+      <div class="hero-right-deco"></div>
+      <div class="hero-right-deco2"></div>
+      <img src="{{ '/images/profile.png' | relative_url }}" alt="Joaquin Auzenne" class="hero-profile"/>
+    </div>
     <div class="hero-stats">
       {% for stat in site.data.hero.stats %}
       <div class="stat">
