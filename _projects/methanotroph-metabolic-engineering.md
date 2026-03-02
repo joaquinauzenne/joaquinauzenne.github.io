@@ -8,7 +8,7 @@ tags: [Metabolic Engineering, Gibson Assembly, qRT-PCR, Science Communication]
 
 ## Overview
 
-This project explored using methane-consuming bacteria (*Methylomicrobium alcaliphilum*) and engineered *E. coli* as biocatalysts for producing shikimate — a key precursor in the biosynthesis of nylon intermediates — as a sustainable alternative to petroleum-based chemical production. The work was conducted at the UNT BioDiscovery Institute under Dr. Calvin Henard and included a science communication component adapting research findings for a young audience.
+This project explored using methane-consuming bacteria (*Methylomicrobium alcaliphilum*) and engineered *E. coli* as biocatalysts for producing shikimate and **muconic acid** — key precursors in the biosynthesis of nylon — as a sustainable alternative to petroleum-based chemical production. The work was conducted at the UNT BioDiscovery Institute under Dr. Calvin Henard and included a science communication component adapting research findings for a young audience.
 
 ## Methods / Approach
 
@@ -28,6 +28,7 @@ This project explored using methane-consuming bacteria (*Methylomicrobium alcali
 
 - **Gibson Assembly** — multi-fragment cloning for pathway construction
 - **qRT-PCR** — transcript-level verification of inserted genes
+- **Bioreactor Design** — scalable methane-fed bioreactor for muconic acid / nylon precursor production
 - **Benchling (LIMS)** — sequence design, annotation, and lab notebook
 - **Anaerobic Culture (Coy chamber)** — methanotroph cultivation under controlled atmosphere
 - **Science Communication** — *Frontiers for Young Minds* manuscript preparation
