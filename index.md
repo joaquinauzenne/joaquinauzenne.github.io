@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Hello and welcome! 👋 I'm Joaquin — a recent graduate ('25) from the **University of Texas at Austin** with a B.S. in Mathematics and a B.S. in Computational Biology, along with a Certificate in Scientific Computation and Data Sciences.
+I'm Joaquin — a recent graduate ('25) from the **University of Texas at Austin** with a B.S. in Mathematics and a B.S. in Computational Biology, along with a Certificate in Scientific Computation and Data Sciences.
 
 I'm an interdisciplinary scientist focused on engineering high-fidelity solutions for complex biological systems. My work treats biological data as a mathematical landscape to be decoded through predictive modeling and robust pipeline engineering — whether building eDNA metabarcoding workflows for conservation, designing metabolic pathways for sustainable chemistry, or forecasting pharmaceutical logistics.
 
