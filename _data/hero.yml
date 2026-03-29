@@ -9,8 +9,8 @@ stats:
     label: "Years Research"
   - num: "4"
     label: "Previous Research Roles"
-  - num: "4"
-    label: "Languages"
+  - num: "Bilingual"
+    label: "English, French"
 
 interests:
   - Metabolic Engineering
