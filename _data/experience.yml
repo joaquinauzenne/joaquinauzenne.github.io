@@ -8,7 +8,7 @@ research:
     org: "DiFiore Lab, University of Texas at Austin"
     bullets:
       - "Developed a mammalian metabarcoding pipeline for pre-processing and consensus sequence clustering of Nanopore MinION-sequenced environmental DNA (83 soil samples, ~6M reads) in Shell script for taxonomic assignment via BLAST+."
-      - "Integrated multiple public domain databases (NCBI, IUCN) using the GBIF Metabarcoding Data Toolkit API for comprehensive species identification and interactive species-range visualization (ArcGIS)."
+      - "Integrated multiple public domain databases (NCBI, IUCN) using the GBIF Metabarcoding Data Toolkit API for comprehensive species identification and interactive species-range visualization."
       - "Established a curated DNA reference library of mammals identified along the Magdalena River in Colombia, focusing on rRNA genetic markers (12S, 16S)."
       - "Delivered consensus sequences ready for longitudinal population and dispersal analyses using MinION MKICN Nanopore sequencing, MultiQC, NGSpeciesID read clustering, and megaBLAST taxonomic assignment."
 
