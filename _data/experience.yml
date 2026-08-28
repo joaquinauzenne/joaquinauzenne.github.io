@@ -2,7 +2,7 @@
 # Edit any entry or add new ones. They render in the order listed.
 
 research:
-  - date: "Dec 2024 – Present"
+  - date: "Oct 2025"
     location: "Austin, TX"
     title: "Bioinformatic Assistant"
     org: "DiFiore Lab, University of Texas at Austin"
@@ -76,7 +76,8 @@ education:
     bullets:
       - "College of Natural Sciences Polymathic Scholars Honors"
       - "Thesis: <em>DNA Metabarcoding of Soil Samples from the Magdalena River Valley</em>"
-      - "Courses: Applied Data Analysis, Bioinformatics, Predictive Analytics, Mathematical Modeling, Systems Biology of Stem Cells, Functional Analysis, Social and Biological Networks, Scientific Computing in Numerical Analysis, Environmental Epigenetics, Microbial Genetics, Language and the Brain"
+      - "Graduate courses: Applied Data Analysis, Bioinformatics, Functional Analysis"
+      - "Courses: Predictive Analytics, Mathematical Modeling, Systems Biology of Stem Cells, Social and Biological Networks, Scientific Computing in Numerical Analysis, Environmental Epigenetics, Microbial Genetics, Language and the Brain"
 
   - date: "Aug 2019 – May 2021"
     location: "Denton, TX"
@@ -85,17 +86,10 @@ education:
     bullets:
       - "Research at Henard Lab (metabolic engineering) and Crossley Lab (reptile cardiorespiratory physiology)"
 
-  - date: "2022 – 2023"
-    location: "Austin, TX"
-    title: "SIAM Directed Reading Program"
-    org: "University of Texas at Austin"
-    bullets:
-      - "Engaged in advanced independent study in applied mathematics under faculty mentorship, culminating in a formal literature review presentation."
-
   - date: "Certifications"
-    location: ""
+    location: "Industry training"
     title: "Professional Certifications"
-    org: "Industry Training"
+    org: "MSSC · Lean Six Sigma · OSHA"
     bullets:
       - "MSSC Certified Production Technician"
       - "Lean Six Sigma White Belt"

@@ -3,7 +3,7 @@ layout: project
 order: 3
 title: "IdMiner — Bioinformatic Literature Search Tool"
 org: "FRI EvoDevOmics · UT Austin · 2022–2023"
-desc: "Co-developed a Python-based automated literature mining tool using BeautifulSoup to query PaperBLAST (1M+ papers across PubMed and NCBI) for gene-associated publications, validating 40+ differentially expressed gene annotations in frog embryonic transcriptomics research."
+desc: "Automated literature mining across 1M+ PaperBLAST-indexed papers, validating 40+ differentially expressed gene annotations."
 tags: [Python, PaperBLAST, Web Scraping, Functional Annotation, Transcriptomics]
 ---
 
@@ -15,7 +15,7 @@ IdMiner automates large-scale literature retrieval for gene functional annotatio
 
 After running differential gene expression analyses (DESeq2, WGCNA), researchers are left with lists of 40+ DEGs that require manual literature review to confirm whether their associated biological process annotations are well-supported in the scientific literature. This process is time-consuming and not reproducible at scale.
 
-## Methods / Approach
+## Approach
 
 - Co-designed the application architecture to accept lists of differentially expressed genes as input (gene symbols or identifiers).
 - Implemented automated queries to the **PaperBLAST** database, which indexes 1M+ scientific papers across PubMed, NCBI, and related repositories.
@@ -23,14 +23,14 @@ After running differential gene expression analyses (DESeq2, WGCNA), researchers
 - Built output formatting modules to return ranked, structured reports of validated biological process terms supported by the literature.
 - Applied to validate **40+ DEGs** from frog embryonic transcriptomics experiments within the FRI EvoDevOmics stream.
 
-## Key Results
+## Key results
 
 - Reduced manual literature review time dramatically for DEG validation workflows — from hours to seconds at scale.
 - Validated **40+ differentially expressed genes** from frog embryonic transcriptomics (DESeq2 / WGCNA) analyses.
 - Provided reproducible, auditable gene-term annotations across **1M+ indexed scientific papers**.
 - Enabled scalable DEG annotation as a standard step in the FRI EvoDevOmics transcriptomics pipeline.
 
-## Tools & Technologies
+## Tools & methods
 
 - **Python** — core application logic, query construction, data parsing
 - **BeautifulSoup** — HTML parsing of PaperBLAST search result pages

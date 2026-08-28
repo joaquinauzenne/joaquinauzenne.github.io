@@ -336,6 +336,7 @@ nav {
 
 .page-lede {
   font-size: 1.09rem;
+  font-weight: 600;
   line-height: 1.85;
   color: $muted;
   max-width: 58ch;
@@ -373,6 +374,7 @@ nav {
 
   p {
     font-size: 1.05rem;
+    font-weight: 600;
     line-height: 1.9;
     color: $muted;
 
@@ -400,7 +402,7 @@ nav {
   flex-direction: column;
   gap: 0.55rem;
 
-  li { font-size: 0.99rem; color: $muted; }
+  li { font-size: 0.99rem; font-weight: 600; color: $muted; }
 }
 
 .lang-list { display: flex; flex-direction: column; }
@@ -412,6 +414,7 @@ nav {
   padding: 0.45rem 0;
   border-bottom: 1px solid rgba(217, 201, 168, 0.5);
   font-size: 0.99rem;
+  font-weight: 600;
   color: $muted;
 
   &:last-child { border-bottom: none; }
@@ -475,6 +478,7 @@ nav {
   }
   .work-blurb {
     font-size: 0.97rem;
+    font-weight: 600;
     line-height: 1.7;
     color: $muted;
   }
@@ -524,6 +528,7 @@ nav {
   }
   .toolkit-line {
     font-size: 0.94rem;
+    font-weight: 600;
     line-height: 1.85;
     color: $muted;
   }
@@ -614,6 +619,7 @@ nav {
 
   p {
     font-size: 1.06rem;
+    font-weight: 600;
     line-height: 1.9;
     color: $muted;
 
@@ -627,6 +633,7 @@ nav {
 
     li {
       font-size: 1.03rem;
+      font-weight: 600;
       line-height: 1.8;
       color: $muted;
       padding-left: 1.35rem;
@@ -755,6 +762,7 @@ nav {
 
 .exp-org {
   font-size: 0.97rem;
+  font-weight: 600;
   color: $muted;
   margin-bottom: 1rem;
 }
@@ -767,6 +775,7 @@ nav {
 
   li {
     font-size: 1.01rem;
+    font-weight: 600;
     line-height: 1.75;
     color: $muted;
     padding-left: 1.25rem;
@@ -843,6 +852,7 @@ nav {
 
 .note-desc {
   font-size: 0.97rem;
+  font-weight: 600;
   line-height: 1.75;
   color: $muted;
   max-width: 46ch;
@@ -909,6 +919,7 @@ nav {
   }
   .contact-fact-value {
     font-size: 1.01rem;
+    font-weight: 600;
     color: $muted;
   }
   .contact-fact-value.refs {

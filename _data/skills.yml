@@ -1,5 +1,5 @@
-# Skills section — each card has a title and a list of tags
-# Add, remove, or reorder freely.
+# "Also in the toolkit" grid on the Work page.
+# Each entry renders as a category label plus its tags joined with " · ".
 
 - title: "Programming"
   tags:
@@ -15,10 +15,9 @@
     - MCMCglmm
     - nlme
     - SQL
-    - Bash / Shell
+    - Bash
     - MATLAB (PINNs)
     - Java
-    - HTML / CSS
     - C++
     - SLURM / HPC
 
@@ -36,10 +35,10 @@
     - DESeq2
     - WGCNA
     - AlphaFold2
-    - Variant Calling
-    - Benchling (LIMS)
+    - variant calling
+    - Benchling
 
-- title: "Data Analysis"
+- title: "Data analysis"
   tags:
     - SAS
     - SPSS
@@ -51,47 +50,43 @@
     - SARIMA
     - NLP
     - GenAI / LLM RAG
-    - ggplot2
     - matplotlib
     - Plotly
     - AWS
-    - FAIR Data Management
+    - FAIR data management
 
-- title: "Wet Lab"
+- title: "Wet lab"
   tags:
     - PCR / qPCR / ddPCR
-    - DNA / RNA Extraction
+    - DNA & RNA extraction
     - SDS-PAGE
-    - Media Preparation
-    - Gibson Assembly
+    - media prep
+    - Gibson assembly
     - CRISPR / Cas iPSC
-    - Anaerobic Culture (Coy)
-    - Light Microscopy
-    - Gram Staining
-    - Plate Preparation
-    - Transfection
-    - Centrifugation
-    - Blood Gas Analysis
-    - Cleanroom Operations
+    - anaerobic culture (Coy)
+    - light microscopy
+    - Gram staining
+    - transfection
+    - blood gas analysis
+    - cleanroom operations
 
-- title: "Animal & Field Work"
+- title: "Animal & field work"
   tags:
-    - Laboratory Animal Handling
-    - Behavioral Observations
-    - Physiological Data Collection
-    - Specimen Transport
-    - Animal Restraint
-    - Environmental DNA Sampling
+    - Laboratory animal handling
+    - behavioral observations
+    - physiological data collection
+    - specimen transport
+    - animal restraint
+    - environmental DNA sampling
 
-- title: "Manufacturing & Engineering"
+- title: "Manufacturing"
   tags:
     - CNC (HAAS / DMG Mori)
-    - G-Code
+    - G-code
     - GD&T
     - AutoCAD
     - SolidWorks
-    - 3D Printing
-    - Carbon Fiber Fabrication
+    - 3D printing
+    - carbon fiber fabrication
     - Lean Six Sigma
     - OSHA-10
-
