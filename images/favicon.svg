@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DNA double helix">
   <rect width="64" height="64" rx="12" fill="#F5F0E8"/>
-  <g stroke="#8C24C7" stroke-width="2.6" fill="none" stroke-linecap="round">
-    <path d="M22 13 H42 M19 20 H45 M19 44 H45 M22 51 H42"/>
-  </g>
-  <g stroke="#3D5A3E" stroke-width="5" fill="none" stroke-linecap="round">
-    <path d="M32 6 C50 15 50 23 32 32 C14 41 14 49 32 58"/>
-    <path d="M32 6 C14 15 14 23 32 32 C50 41 50 49 32 58"/>
+  <g transform="rotate(-90 32 32)">
+    <g stroke="#8C24C7" stroke-width="2.6" fill="none" stroke-linecap="round">
+      <path d="M22 13 H42 M19 20 H45 M19 44 H45 M22 51 H42"/>
+    </g>
+    <g stroke="#3D5A3E" stroke-width="5" fill="none" stroke-linecap="round">
+      <path d="M32 6 C50 15 50 23 32 32 C14 41 14 49 32 58"/>
+      <path d="M32 6 C14 15 14 23 32 32 C50 41 50 49 32 58"/>
+    </g>
   </g>
 </svg>
