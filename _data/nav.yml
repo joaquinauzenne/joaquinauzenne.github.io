@@ -1,0 +1,27 @@
+# Site navigation — drives both the top nav and the home index list.
+# Order determines numbering (01, 02, ...) on the home page.
+
+- id: about
+  label: About
+  desc: "The short version, in full"
+  url: /about/
+
+- id: work
+  label: Work
+  desc: "Five projects, from eDNA pipelines to network epidemiology"
+  url: /work/
+
+- id: experience
+  label: Experience
+  desc: "Research, professional, and academic history"
+  url: /experience/
+
+- id: notes
+  label: Notes
+  desc: "What I'm reading and writing"
+  url: /notes/
+
+- id: contact
+  label: Contact
+  desc: "Email, LinkedIn, GitHub"
+  url: /contact/

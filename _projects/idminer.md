@@ -1,5 +1,6 @@
 ---
 layout: project
+order: 3
 title: "IdMiner — Bioinformatic Literature Search Tool"
 org: "FRI EvoDevOmics · UT Austin · 2022–2023"
 desc: "Co-developed a Python-based automated literature mining tool using BeautifulSoup to query PaperBLAST (1M+ papers across PubMed and NCBI) for gene-associated publications, validating 40+ differentially expressed gene annotations in frog embryonic transcriptomics research."

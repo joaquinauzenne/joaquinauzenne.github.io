@@ -1,0 +1,58 @@
+<div class="contact-grid">
+  <ul class="contact-list">
+    <li>
+      <a href="mailto:{{ site.author.email_work }}" class="contact-row">
+        <span class="contact-type">Work</span>
+        <span class="contact-value">{{ site.author.email_work }}</span>
+        <span class="contact-arrow"></span>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:{{ site.author.email_academic }}" class="contact-row">
+        <span class="contact-type">Academic</span>
+        <span class="contact-value">{{ site.author.email_academic }}</span>
+        <span class="contact-arrow"></span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="contact-row">
+        <span class="contact-type">LinkedIn</span>
+        <span class="contact-value">linkedin.com/in/{{ site.author.linkedin }}</span>
+        <span class="contact-arrow">→</span>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" class="contact-row">
+        <span class="contact-type">GitHub</span>
+        <span class="contact-value">github.com/{{ site.author.github }}</span>
+        <span class="contact-arrow">→</span>
+      </a>
+    </li>
+  </ul>
+
+  <div class="contact-card">
+    <div class="contact-fact">
+      <div class="contact-fact-label">Location</div>
+      <div class="contact-fact-value">{{ site.author.location }}</div>
+    </div>
+    <div class="contact-fact">
+      <div class="contact-fact-label">Affiliation</div>
+      <div class="contact-fact-value">{{ site.author.affiliation }}</div>
+    </div>
+    <div class="contact-fact">
+      <div class="contact-fact-label">Pronouns</div>
+      <div class="contact-fact-value">{{ site.author.pronouns }}</div>
+    </div>
+    <div class="contact-fact">
+      <div class="contact-fact-label">Open to</div>
+      <div class="contact-fact-value">{{ site.author.open_to }}</div>
+    </div>
+    <div class="contact-fact">
+      <div class="contact-fact-label">Academic References</div>
+      <div class="contact-fact-value refs">
+        {% assign refs = site.author.references | split: " · " %}
+        {% for ref in refs %}<span>{{ ref }}</span>{% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

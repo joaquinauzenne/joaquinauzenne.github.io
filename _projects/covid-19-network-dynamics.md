@@ -1,5 +1,6 @@
 ---
 layout: project
+order: 2
 title: "COVID-19 Spatiotemporal Network Dynamics"
 org: "Dept. of Integrative Biology · UT Austin · Oct–Dec 2024"
 desc: "Built spatial network time-series models of U.S. COVID-19 spread (32M cases, Apr 2020–Apr 2021) with R/Shiny interactive maps, dashboards, and weighted network centrality statistics to identify transmission hubs and inform public health intervention strategies."

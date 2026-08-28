@@ -1,19 +1,20 @@
-# About section sidebar cards — edit freely
-
-- title: "Currently Learning"
-  type: list
-  items:
-    - "Dialectical Biologist by Richard Levins, Richard Lewontin"
-    - "Functional Analysis for Applied Math by Todd Arbogast"
-    - "Topics in Algebra by I.N. Herstein"
+# About page sidebar cards — edit freely
 
 - title: "Research Interests"
   type: list
   items:
-    - "eDNA Metabarcoding & Conservation"
+    - "Metabarcoding & Sequence Analysis"
     - "Primate Neurolinguistics"
-    - "Transcriptomics & 'Omics Data"
-    - "GenAI & LLM Applications with RAG"
+    - "Information Entropy, Algebraic Geometry, and Dynamical Systems"
+    - "Gaussian Processes for Statistical Learning"
+
+- title: "Education"
+  type: list
+  items:
+    - "B.S. Mathematics · UT Austin '25"
+    - "B.S. Computational Biology · UT Austin '25"
+    - "Cert. Scientific Computation & Data Sciences"
+    - "Polymathic Scholars Honors"
 
 - title: "Languages"
   type: languages
@@ -26,11 +27,3 @@
       level: "Conversational"
     - name: "Japanese"
       level: "Novice"
-
-- title: "Education"
-  type: list
-  items:
-    - "B.S. Mathematics · UT Austin '25"
-    - "B.S. Computational Biology · UT Austin '25"
-    - "Cert. Scientific Computation & Data Sciences"
-    - "Polymathic Scholars Honors"

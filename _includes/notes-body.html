@@ -1,0 +1,36 @@
+<div class="notes-grid">
+  <div class="notes-col">
+    <div class="notes-col-label"><span>Currently reading</span><span class="rule"></span></div>
+    <ul class="notes-list">
+      {% for r in site.data.notes.reading %}
+      <li>
+        <div class="note-title">{{ r.title }}</div>
+        <div class="note-author">{{ r.author }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="notes-col">
+    <div class="notes-col-label"><span>Read</span><span class="rule"></span></div>
+    <ul class="notes-list">
+      {% for r in site.data.notes.read %}
+      <li>
+        <div class="note-title">{{ r.title }}</div>
+        <div class="note-author">{{ r.author }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="notes-col">
+    <div class="notes-col-label"><span>Writing</span><span class="rule"></span></div>
+    <ul class="notes-list">
+      {% for w in site.data.notes.writing %}
+      <li>
+        <div class="note-title">{{ w.title }}</div>
+        <div class="note-meta">{{ w.meta }}</div>
+        <div class="note-desc">{{ w.desc }}</div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

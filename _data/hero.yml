@@ -1,5 +1,22 @@
-# Hero section data — edit these to update the hero panel
-eyebrow: "Bioinformatics · Mathematics · Open Science"
+# Hero (home page) data — edit these to update the home panel
+eyebrow: "Bioinformatics · Applied Mathematics · Open Science"
+
+headline_lines:
+  - "B.S. <em>Mathematics</em>"
+  - "B.S. <em>Computational Biology</em>"
+
+quote:
+  latin: "Homo liber nulla de re minus quam de morte cogitat; et ejus sapientia non mortis sed vitae meditatio est."
+  translation: "(There is nothing over which a free man ponders less than death; his wisdom is, to meditate not on death but on life.)"
+  citation: "Spinoza's Ethics, Pt IV, Prop 67"
+
+open_to: "Open to research collaborations, interdisciplinary projects, and open science initiatives."
+
+# Toggles for the right-hand hero panel
+show_motif: true
+show_photo: true
+
+# Legacy fields (not rendered by the current design, kept for reference)
 tagline: "Interdisciplinary scientist from UT Austin bridging quantitative theory and experimental execution — at the intersection of mathematics, computation, and biology."
 
 stats:
@@ -19,4 +36,3 @@ interests:
   - Predictive Modeling
   - Statistical Learning
   - Dynamical Systems
-  

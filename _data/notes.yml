@@ -1,0 +1,22 @@
+# Notes page — reading list and writing. Edit freely.
+
+reading:
+  - title: "The Dialectical Biologist"
+    author: "Richard Levins & Richard Lewontin"
+  - title: "Functional Analysis for Applied Mathematics"
+    author: "Todd Arbogast"
+
+read:
+  - title: "Topics in Algebra"
+    author: "I. N. Herstein"
+
+writing:
+  - title: "DNA Metabarcoding of Soil Samples from the Magdalena River Valley"
+    meta: "Senior honors thesis · UT Austin · 2025"
+    desc: "Nanopore eDNA from 83 Colombian soil samples, from consensus clustering through taxonomic assignment and species-range visualization."
+  - title: "Muconic acid production from methane, for readers aged 8–15"
+    meta: "Frontiers for Young Minds · adaptation · 2021"
+    desc: "A plain-language adaptation of Henard et al., translating rationally-engineered methanotrophic biocatalysts into something a middle schooler can follow."
+  - title: "SIAM Directed Reading Program literature review"
+    meta: "UT Austin · 2022–2023"
+    desc: "Independent study in applied mathematics under faculty mentorship, presented as a formal literature review."

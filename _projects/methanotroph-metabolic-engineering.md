@@ -1,5 +1,6 @@
 ---
 layout: project
+order: 4
 title: "Methanotroph Metabolic Engineering"
 org: "Henard Lab · UNT BioDiscovery Institute · 2020–2021"
 desc: "Awarded $500 to design a shikimate biosynthesis pathway for plasmid-modified <em>E. coli</em> (Gibson assembly) as a green-chemistry alternative for nylon production in a scalable methane-fed bioreactor. Adapted <em>\"Muconic acid production from methane using rationally-engineered methanotrophic biocatalysts\"</em> (Henard et al.) for <em>Frontiers for Young Minds</em>."

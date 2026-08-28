@@ -1,5 +1,6 @@
 ---
 layout: project
+order: 1
 title: "Mammalian Metabarcoding & Species-Range Visualization Platform"
 org: "DiFiore Lab · UT Austin · Dec 2024–Present"
 desc: "Developed an interactive web application presenting Nanopore eDNA genomic analyses as user-friendly interfaces for both scientific and public audiences, integrating sequencing results with geospatial species-range data for the Magdalena River Valley."

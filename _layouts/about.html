@@ -1,0 +1,14 @@
+---
+layout: base
+---
+<main class="page fade-up fade-up-1">
+  {% if page.eyebrow %}<div class="page-eyebrow">{{ page.eyebrow }}</div>{% endif %}
+  {% if page.heading %}<h2 class="page-heading">{{ page.heading }}</h2>{% endif %}
+  {% include divider-dots.html %}
+  <div class="about-grid">
+    <div class="about-text">
+      {{ content }}
+    </div>
+    {% include about-sidebar.html %}
+  </div>
+</main>

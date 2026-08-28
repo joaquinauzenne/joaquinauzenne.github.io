@@ -1,0 +1,23 @@
+<div class="about-sidebar">
+  {% for card in site.data.about_sidebar %}
+  <div class="about-card">
+    <div class="about-card-title">{{ card.title }}</div>
+    {% if card.type == "languages" %}
+    <div class="lang-list">
+      {% for lang in card.items %}
+      <div class="lang-item">
+        <span>{{ lang.name }}</span>
+        <span class="lang-level">{{ lang.level }}</span>
+      </div>
+      {% endfor %}
+    </div>
+    {% else %}
+    <ul class="about-card-list">
+      {% for item in card.items %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

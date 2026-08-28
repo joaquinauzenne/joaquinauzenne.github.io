@@ -1,0 +1,40 @@
+<main class="page fade-up fade-up-1">
+  <div class="exp-header">
+    <div>
+      <div class="page-eyebrow">03 / Experience</div>
+      <h2 class="page-heading">Research, work, and <em>study</em></h2>
+    </div>
+    <a href="{{ '/files/Auzenne_CV.pdf' | relative_url }}" download class="cv-button">Download CV</a>
+  </div>
+
+  {% assign groups = "Research:research,Professional:professional,Education:education" | split: "," %}
+  {% for group in groups %}
+  {% assign pair = group | split: ":" %}
+  <section class="exp-group">
+    <div class="exp-group-label">
+      <span>{{ pair[0] }}</span>
+      <span class="rule"></span>
+      <span class="dot"></span>
+    </div>
+    {% for item in site.data.experience[pair[1]] %}
+    <div class="exp-item">
+      <div class="exp-meta">
+        <span class="exp-date">{{ item.date }}</span>
+        {% if item.location and item.location != "" %}
+        <span class="exp-place">{{ item.location }}</span>
+        {% endif %}
+      </div>
+      <div class="exp-content">
+        <div class="exp-title">{{ item.title }}</div>
+        <div class="exp-org">{{ item.org }}</div>
+        <ul class="exp-bullets">
+          {% for bullet in item.bullets %}
+          <li>{{ bullet }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</main>

@@ -1,5 +1,6 @@
 ---
 layout: project
+order: 5
 title: "Longhorn Racing — Composites Division"
 org: "LHR Combustion Team · UT Austin · Sep 2021–May 2022"
 desc: "Fabricated carbon fiber and fiberglass structural components for Formula SAE race cars, developing precision handling techniques under strict quality and safety standards. Designed a lightweight carbon fiber steering wheel and other structural components optimized for weight reduction and heat dissipation."

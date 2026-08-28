@@ -1,0 +1,9 @@
+---
+layout: base
+---
+<main class="page fade-up fade-up-1">
+  {% if page.eyebrow %}<div class="page-eyebrow">{{ page.eyebrow }}</div>{% endif %}
+  {% if page.heading %}<h2 class="page-heading{% if page.heading_narrow %} narrow{% endif %}">{{ page.heading }}</h2>{% endif %}
+  {% if page.lede %}<p class="page-lede">{{ page.lede }}</p>{% endif %}
+  {{ content }}
+</main>

@@ -1,0 +1,46 @@
+---
+layout: base
+---
+<main class="home">
+  <div class="home-left">
+    <div class="home-eyebrow fade-up fade-up-1">{{ site.data.hero.eyebrow }}</div>
+    <h1 class="fade-up fade-up-2">
+      {% for line in site.data.hero.headline_lines %}
+      <span>{{ line }}</span>
+      {% endfor %}
+    </h1>
+    <blockquote class="home-quote fade-up fade-up-3">
+      <p class="quote-latin">{{ site.data.hero.quote.latin }}</p>
+      <p class="quote-translation">{{ site.data.hero.quote.translation }}</p>
+      <cite>{{ site.data.hero.quote.citation }}</cite>
+    </blockquote>
+    <p class="home-open-to fade-up fade-up-3">{{ site.data.hero.open_to }}</p>
+
+    <ul class="index-list fade-up fade-up-4">
+      {% for item in site.data.nav %}
+      <li>
+        <a href="{{ item.url | relative_url }}" class="index-row">
+          <span class="index-num">0{{ forloop.index }}</span>
+          <span class="index-label">{{ item.label }}</span>
+          <span class="index-arrow">→</span>
+        </a>
+      </li>
+      {% endfor %}
+      <li class="index-endcap"></li>
+    </ul>
+  </div>
+
+  <div class="home-right">
+    {% if site.data.hero.show_motif %}
+    <div class="motif-wrap fade-up fade-up-2">
+      {% include motif.svg %}
+    </div>
+    {% endif %}
+    {% if site.data.hero.show_photo %}
+    <div class="home-photo fade-up fade-up-3">
+      <div class="home-photo-ring"></div>
+      <img src="{{ '/images/profile.png' | relative_url }}" alt="{{ site.author.name }}"/>
+    </div>
+    {% endif %}
+  </div>
+</main>

@@ -1,10 +1,11 @@
 <nav>
-  <a href="#hero" class="nav-logo">{{ site.author.name }}</a>
+  <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.author.name }}</a>
   <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
+    {% for item in site.data.nav %}
+    {% assign is_active = false %}
+    {% if page.url == item.url %}{% assign is_active = true %}{% endif %}
+    {% if item.id == "work" and page.layout == "project" %}{% assign is_active = true %}{% endif %}
+    <li><a href="{{ item.url | relative_url }}"{% if is_active %} class="active"{% endif %}>{{ item.label }}</a></li>
+    {% endfor %}
   </ul>
 </nav>
