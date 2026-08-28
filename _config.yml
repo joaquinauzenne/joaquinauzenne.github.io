@@ -41,6 +41,15 @@ collections:
     permalink: /projects/:name/
 
 exclude:
+  # Internal notes — must never be published or indexed
+  - CLAUDE.md
+  - .agents
+  - skills-lock.json
+  # Leftovers from the Academic Pages fork
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
   - Gemfile
   - Gemfile.lock
   - node_modules
