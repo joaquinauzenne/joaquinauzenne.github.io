@@ -1,4 +1,4 @@
-# "Also in the toolkit" grid on the Work page.
+# "Also in the toolkit" grid on the Projects page (/work/).
 # Each entry renders as a category label plus its tags joined with " · ".
 
 - title: "Programming"

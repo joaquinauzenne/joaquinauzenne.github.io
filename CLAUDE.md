@@ -77,7 +77,8 @@ Joaquin Auzenne's personal portfolio website, live at `joaquinauzenne.github.io`
 | Nav labels/order (and Home index numbering) | `_data/nav.yml` |
 | About bio text | Markdown body of `about.md` |
 | About sidebar cards | `_data/about_sidebar.yml` |
-| Work page intro line | `lede` frontmatter in `work.md` |
+| Projects page intro line | `lede` frontmatter in `work.md` |
+| Nav labels (e.g. "Projects" for `/work/`) | `label` in `_data/nav.yml` — the `url` stays `/work/` |
 | Toolkit categories/tags | `_data/skills.yml` |
 | Experience timeline bullets | `_data/experience.yml` |
 | Reading list / writing entries | `_data/notes.yml` |

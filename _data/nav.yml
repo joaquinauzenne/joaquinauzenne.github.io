@@ -7,7 +7,7 @@
   url: /about/
 
 - id: work
-  label: Work
+  label: Projects
   desc: "Five projects, from eDNA pipelines to network epidemiology"
   url: /work/
 

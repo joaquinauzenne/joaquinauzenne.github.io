@@ -4,7 +4,7 @@ layout: base
 <main class="project fade-up fade-up-1">
   <div class="project-header">
     <div class="project-header-inner">
-      <a href="{{ '/work/' | relative_url }}" class="project-back">← Work</a>
+      <a href="{{ '/work/' | relative_url }}" class="project-back">← Projects</a>
       {% assign ordered_projects = site.projects | sort: "order" %}
       {% assign idx = 0 %}
       {% for p in ordered_projects %}{% if p.url == page.url %}{% assign idx = forloop.index %}{% endif %}{% endfor %}
@@ -33,7 +33,7 @@ layout: base
     {% endfor %}
 
     <div class="project-footer-nav">
-      <a href="{{ '/work/' | relative_url }}">← All work</a>
+      <a href="{{ '/work/' | relative_url }}">← All projects</a>
       {% assign next_idx = idx %}
       {% if next_idx >= ordered_projects.size %}{% assign next_idx = 0 %}{% endif %}
       {% assign next = ordered_projects[next_idx] %}
