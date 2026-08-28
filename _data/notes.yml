@@ -11,7 +11,7 @@ read:
     author: "I. N. Herstein"
 
 writing:
-  - title: "DNA Metabarcoding of Soil Samples from the Magdalena River Valley"
+  - title: "Metabarcoding of Soil Samples from the Magdalena River Valley"
     meta: "Senior honors thesis · UT Austin · 2025"
     desc: "Nanopore eDNA from 83 Colombian soil samples, from consensus clustering through taxonomic assignment and species-range visualization."
   - title: "Muconic acid production from methane, for readers aged 8–15"

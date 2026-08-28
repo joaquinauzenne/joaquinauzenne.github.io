@@ -18,6 +18,7 @@
     - Bash
     - MATLAB (PINNs)
     - Java
+    - HTML / CSS
     - C++
     - SLURM / HPC
 
@@ -50,6 +51,7 @@
     - SARIMA
     - NLP
     - GenAI / LLM RAG
+    - ggplot2
     - matplotlib
     - Plotly
     - AWS
