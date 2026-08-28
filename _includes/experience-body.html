@@ -16,7 +16,8 @@
       <span class="rule"></span>
       <span class="dot"></span>
     </div>
-    {% for item in site.data.experience[pair[1]] %}
+    {% assign group_key = pair[1] %}
+    {% for item in site.data.experience[group_key] %}
     <div class="exp-item">
       <div class="exp-meta">
         <span class="exp-date">{{ item.date }}</span>
