@@ -1,30 +1,38 @@
+{% comment %}
+Contact values are obfuscated (<dot> / <at> / <slash>) to discourage address
+scrapers. Edit the real values in _config.yml under author: — the display
+strings below are derived from them.
+{% endcomment %}
+{% capture linkedin_url %}linkedin.com/in/{{ site.author.linkedin }}{% endcapture %}
+{% capture github_url %}github.com/{{ site.author.github }}{% endcapture %}
+
 <div class="contact-grid">
   <ul class="contact-list">
     <li>
-      <a href="mailto:{{ site.author.email_work }}" class="contact-row">
+      <div class="contact-row">
         <span class="contact-type">Work</span>
-        <span class="contact-value">{{ site.author.email_work }}</span>
+        <span class="contact-value">{{ site.author.email_work | replace: ".", "&lt;dot&gt;" | replace: "@", "&lt;at&gt;" }}</span>
         <span class="contact-arrow"></span>
-      </a>
+      </div>
     </li>
     <li>
-      <a href="mailto:{{ site.author.email_academic }}" class="contact-row">
+      <div class="contact-row">
         <span class="contact-type">Academic</span>
-        <span class="contact-value">{{ site.author.email_academic }}</span>
+        <span class="contact-value">{{ site.author.email_academic | replace: ".", "&lt;dot&gt;" | replace: "@", "&lt;at&gt;" }}</span>
         <span class="contact-arrow"></span>
-      </a>
+      </div>
     </li>
     <li>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" class="contact-row">
+      <a href="https://www.{{ linkedin_url }}" target="_blank" class="contact-row">
         <span class="contact-type">LinkedIn</span>
-        <span class="contact-value">linkedin.com/in/{{ site.author.linkedin }}</span>
+        <span class="contact-value">{{ linkedin_url | replace: ".", "&lt;dot&gt;" | replace: "/", "&lt;slash&gt;" }}</span>
         <span class="contact-arrow">→</span>
       </a>
     </li>
     <li>
-      <a href="https://github.com/{{ site.author.github }}" target="_blank" class="contact-row">
+      <a href="https://{{ github_url }}" target="_blank" class="contact-row">
         <span class="contact-type">GitHub</span>
-        <span class="contact-value">github.com/{{ site.author.github }}</span>
+        <span class="contact-value">{{ github_url | replace: ".", "&lt;dot&gt;" | replace: "/", "&lt;slash&gt;" }}</span>
         <span class="contact-arrow">→</span>
       </a>
     </li>
