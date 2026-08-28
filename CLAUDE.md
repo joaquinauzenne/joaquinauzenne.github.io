@@ -10,7 +10,8 @@ Joaquin Auzenne's personal portfolio website, live at `joaquinauzenne.github.io`
 
 - **Font:** a single serif family, `Academia` (self-hosted at `assets/fonts/academia/`, woff2/woff, roman + italic + bold), Georgia fallback — used for headings, body, and uppercase letter-spaced labels alike
 - **Palette:** `$cream` #F5F0E8 · `$ink` #1A1712 · `$moss` #3D5A3E · `$clay` #B8703A · `$sand` #D9C9A8 · `$fog` #E8E0D0 · `$muted` #6E6A62 (body text) · `$blush` #FAC5C9 (home panel) · `$violet` #8C24C7 (motif dots)
-- **Furniture:** noise-texture overlay, `fade-up` entrance animations, graph/lattice SVG motif (`_includes/motif.svg`), dot-and-rule dividers
+- **Furniture:** noise-texture overlay, `fade-up` entrance animations, dot-and-rule dividers
+- **Motif:** a DNA double helix — two mirrored strands with rungs between them. It appears tiled tall in the Home panel (`_includes/motif.svg`) and compact as the favicon (`images/favicon.svg`)
 - **Layout:** multi-page — Home is a split hero (text left, blush motif panel + photo right); every other page is `eyebrow → H2 (italic em accent) → content` at `max-width: 78rem`
 
 ---
@@ -87,6 +88,7 @@ Joaquin Auzenne's personal portfolio website, live at `joaquinauzenne.github.io`
 | Page eyebrows & headings | Frontmatter of `about.md`, `work.md`, `notes.md`, `contact.md` (Experience's header lives in `_includes/experience-body.html`) |
 | Download CV file | Replace `files/Auzenne_CV.pdf` |
 | Profile photo | Replace `images/profile.png` (circular on Home) |
+| Favicon | `images/favicon.svg` — the helix motif; keep it legible at 16px |
 
 ---
 
