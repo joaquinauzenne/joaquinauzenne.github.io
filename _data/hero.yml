@@ -17,12 +17,12 @@ show_motif: true
 show_photo: true
 
 # Legacy fields (not rendered by the current design, kept for reference)
-tagline: "Interdisciplinary scientist from UT Austin bridging quantitative theory and experimental execution — at the intersection of mathematics, computation, and biology."
+tagline: "Interdisciplinary scientist from UT Austin — at the intersection of mathematics, computation, and biology."
 
 stats:
   - num: "Dual B.S."
     label: "Mathematics, Computational Biology"
-  - num: "5+"
+  - num: "5"
     label: "Years Research"
   - num: "4"
     label: "Previous Research Roles"
