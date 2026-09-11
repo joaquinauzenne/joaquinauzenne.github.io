@@ -420,7 +420,7 @@ nav {
   &:last-child { border-bottom: none; }
 
   .lang-level {
-    @include label(0.63rem, 0.1em);
+    @include label(0.99rem, 0.1em);
     text-transform: none;
     color: $moss;
   }
