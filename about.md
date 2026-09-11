@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /about/
 eyebrow: "01 / About"
-heading: 'An interdisciplinary <em>scientist</em>'
+heading: 'An interdisciplinary scientist'
 ---
 
 I'm a recent graduate ('25) from the **University of Texas at Austin** with a B.S. in Mathematics and a B.S. in Computational Biology.

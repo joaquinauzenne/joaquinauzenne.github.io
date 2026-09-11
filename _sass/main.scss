@@ -1,5 +1,5 @@
 // ── Variables ──
-$cream: #F5F0E8;
+$cream: #F5EDD6;
 $ink: #1A1712;
 $moss: #3D5A3E;
 $clay: #B8703A;
@@ -107,7 +107,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.1rem 3.5rem;
-  background: rgba(245, 240, 232, 0.9);
+  background: rgba(245, 237, 214, 0.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid $sand;
 }
@@ -205,7 +205,7 @@ nav {
 }
 
 .home-open-to {
-  font-size: 1.09rem;
+  font-size: 1.215rem;
   line-height: 1.85;
   color: $muted;
   max-width: 52ch;
@@ -335,7 +335,7 @@ nav {
 }
 
 .page-lede {
-  font-size: 1.09rem;
+  font-size: 1.215rem;
   font-weight: 600;
   line-height: 1.85;
   color: $muted;
@@ -373,13 +373,13 @@ nav {
   gap: 1.4rem;
 
   p {
-    font-size: 1.05rem;
+    font-size: 1.175rem;
     font-weight: 600;
     line-height: 1.9;
     color: $muted;
 
     strong { font-weight: 700; }
-    em { font-size: 1.01rem; line-height: 1.8; }
+    em { font-size: 1.135rem; line-height: 1.8; }
   }
 }
 
@@ -477,7 +477,7 @@ nav {
     gap: 0.9rem;
   }
   .work-blurb {
-    font-size: 0.97rem;
+    font-size: 1.095rem;
     font-weight: 600;
     line-height: 1.7;
     color: $muted;
@@ -527,7 +527,7 @@ nav {
     color: $moss;
   }
   .toolkit-line {
-    font-size: 0.94rem;
+    font-size: 1.065rem;
     font-weight: 600;
     line-height: 1.85;
     color: $muted;
@@ -618,7 +618,7 @@ nav {
   max-width: 62ch;
 
   p {
-    font-size: 1.06rem;
+    font-size: 1.185rem;
     font-weight: 600;
     line-height: 1.9;
     color: $muted;
@@ -632,7 +632,7 @@ nav {
     gap: 0.7rem;
 
     li {
-      font-size: 1.03rem;
+      font-size: 1.155rem;
       font-weight: 600;
       line-height: 1.8;
       color: $muted;
@@ -774,7 +774,7 @@ nav {
   max-width: 80ch;
 
   li {
-    font-size: 1.01rem;
+    font-size: 1.135rem;
     font-weight: 600;
     line-height: 1.75;
     color: $muted;
@@ -836,7 +836,7 @@ nav {
 .note-author {
   font-family: $serif;
   font-weight: 600;
-  font-size: 0.64rem;
+  font-size: 0.765rem;
   letter-spacing: 0.08em;
   opacity: 0.5;
 }
@@ -851,7 +851,7 @@ nav {
 }
 
 .note-desc {
-  font-size: 0.97rem;
+  font-size: 1.095rem;
   font-weight: 600;
   line-height: 1.75;
   color: $muted;
