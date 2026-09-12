@@ -1,15 +1,22 @@
 // ── Variables ──
-$cream: #F5EDD6;
-$ink: #1A1712;
-$moss: #3D5A3E;
-$clay: #B8703A;
-$sand: #D9C9A8;
-$fog: #E8E0D0;
-$muted: #6E6A62;
+// Palette: A3333D / F64740 / 291F1E / 477998, with the background split into
+// two warm tones — a pale main background and a richer secondary-panel tone
+// — instead of one flat backdrop. $sand/$muted are derived tints between
+// $ink and $cream so dividers and secondary text sit tonally between them.
+$cream: #F1F0CC;
+$ink: #291F1E;
+$moss: #477998;
+$clay: #A3333D;
+$sand: #D1CFB0;
+$fog: #D5BF86;
+$muted: #837D6C;
 $blush: #FAC5C9;
-$violet: #8C24C7;
+$violet: $blush;
 
 $serif: 'Academia', Georgia, serif;
+// Body/paragraph/description text uses the system Times New Roman (Times
+// on Mac, generic serif as final fallback) -- no webfont load needed.
+$desc-font: 'Times New Roman', Times, serif;
 
 // ── Fonts ──
 @font-face {
@@ -107,7 +114,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.1rem 3.5rem;
-  background: rgba(245, 237, 214, 0.9);
+  background: rgba(241, 240, 204, 0.9);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid $sand;
 }
@@ -205,7 +212,8 @@ nav {
 }
 
 .home-open-to {
-  font-size: 1.215rem;
+  font-family: $desc-font;
+  font-size: 1.09rem;
   line-height: 1.85;
   color: $muted;
   max-width: 52ch;
@@ -232,7 +240,7 @@ nav {
 
   &:hover {
     padding-left: 0.75rem;
-    background: rgba(217, 201, 168, 0.22);
+    background: rgba(209, 207, 176, 0.22);
   }
 
   .index-num {
@@ -303,7 +311,7 @@ nav {
     object-fit: cover;
     object-position: center top;
     border: 2px solid $cream;
-    box-shadow: 0 10px 40px rgba(26, 23, 18, 0.12);
+    box-shadow: 0 10px 40px rgba(41, 31, 30, 0.12);
   }
 }
 
@@ -335,7 +343,8 @@ nav {
 }
 
 .page-lede {
-  font-size: 1.215rem;
+  font-family: $desc-font;
+  font-size: 1.09rem;
   font-weight: 600;
   line-height: 1.85;
   color: $muted;
@@ -373,13 +382,14 @@ nav {
   gap: 1.4rem;
 
   p {
-    font-size: 1.175rem;
+    font-family: $desc-font;
+    font-size: 1.05rem;
     font-weight: 600;
     line-height: 1.9;
     color: $muted;
 
     strong { font-weight: 700; }
-    em { font-size: 1.135rem; line-height: 1.8; }
+    em { font-size: 1.01rem; line-height: 1.8; }
   }
 }
 
@@ -412,7 +422,7 @@ nav {
   justify-content: space-between;
   align-items: baseline;
   padding: 0.45rem 0;
-  border-bottom: 1px solid rgba(217, 201, 168, 0.5);
+  border-bottom: 1px solid rgba(209, 207, 176, 0.5);
   font-size: 0.99rem;
   font-weight: 600;
   color: $muted;
@@ -444,7 +454,7 @@ nav {
   transition: background 0.2s, padding 0.2s;
 
   &:hover {
-    background: rgba(217, 201, 168, 0.22);
+    background: rgba(209, 207, 176, 0.22);
     padding-left: 0.75rem;
   }
 
@@ -477,7 +487,8 @@ nav {
     gap: 0.9rem;
   }
   .work-blurb {
-    font-size: 1.095rem;
+    font-family: $desc-font;
+    font-size: 0.97rem;
     font-weight: 600;
     line-height: 1.7;
     color: $muted;
@@ -527,7 +538,8 @@ nav {
     color: $moss;
   }
   .toolkit-line {
-    font-size: 1.065rem;
+    font-family: $desc-font;
+    font-size: 0.94rem;
     font-weight: 600;
     line-height: 1.85;
     color: $muted;
@@ -586,7 +598,7 @@ nav {
   flex-wrap: wrap;
   gap: 0.4rem;
 
-  .tag-chip { border-color: #C9B994; opacity: 0.9; }
+  .tag-chip { border-color: $sand; opacity: 0.9; }
 }
 
 .project-body {
@@ -618,7 +630,8 @@ nav {
   max-width: 62ch;
 
   p {
-    font-size: 1.185rem;
+    font-family: $desc-font;
+    font-size: 1.06rem;
     font-weight: 600;
     line-height: 1.9;
     color: $muted;
@@ -632,7 +645,8 @@ nav {
     gap: 0.7rem;
 
     li {
-      font-size: 1.155rem;
+      font-family: $desc-font;
+      font-size: 1.03rem;
       font-weight: 600;
       line-height: 1.8;
       color: $muted;
@@ -774,7 +788,8 @@ nav {
   max-width: 80ch;
 
   li {
-    font-size: 1.135rem;
+    font-family: $desc-font;
+    font-size: 1.01rem;
     font-weight: 600;
     line-height: 1.75;
     color: $muted;
@@ -851,7 +866,8 @@ nav {
 }
 
 .note-desc {
-  font-size: 1.095rem;
+  font-family: $desc-font;
+  font-size: 0.97rem;
   font-weight: 600;
   line-height: 1.75;
   color: $muted;
@@ -884,7 +900,7 @@ nav {
 
   &:hover {
     padding-left: 0.75rem;
-    background: rgba(217, 201, 168, 0.22);
+    background: rgba(209, 207, 176, 0.22);
   }
 
   .contact-type {
@@ -901,8 +917,11 @@ nav {
 }
 
 .contact-card {
-  background: $fog;
+  background: #3F0D12;
+  color: #FFFFFF;
   padding: 2.25rem;
+
+  .contact-fact-value { color: #FFFFFF; }
 }
 
 .contact-fact {
