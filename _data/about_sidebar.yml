@@ -1,12 +1,11 @@
 # About page sidebar cards — edit freely
 
-- title: "Research Interests"
+- title: "Current Interests"
   type: list
   items:
-    - "Metabarcoding & Sequence Analysis"
+    - "Metabarcoding & Biological Sequence Analysis"
     - "Primate Neurolinguistics"
     - "Information Entropy, Algebraic Geometry, and Dynamical Systems"
-    - "Gaussian Processes for Machine Learning"
 
 - title: "Education"
   type: list
@@ -14,7 +13,6 @@
     - "B.S. Mathematics · UT Austin '25"
     - "B.S. Computational Biology · UT Austin '25"
     - "Cert. Scientific Computation & Data Sciences"
-    - "Polymathic Scholars Honors"
 
 - title: "Languages"
   type: languages
